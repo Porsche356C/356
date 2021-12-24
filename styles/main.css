@@ -13,21 +13,6 @@ html, body {
 
     display: grid;
     grid-template-columns: 300px auto;
-    
-/* 
-    grid-template-areas:
-        "nav    content";
-
-         */
-    /* display: grid;
-    grid-template-rows: 33px auto 33px;
-    grid-template-columns: 300px auto;
-    
-
-    grid-template-areas:
-        "menuTop    pdfTop"
-        "menuTree   pdf"
-        "menuSearch pdf"; */
 }
 
 #nav {
@@ -56,6 +41,13 @@ html, body {
         "pdfTop"
         "pdf"
         "pdf";
+}
+
+.homepage {
+    width: 50%;
+    height: 100%;
+    margin: 20px;
+    /* padding: 10px; */
 }
 
 

@@ -51,7 +51,7 @@ body.bg01 {
   background-image: linear-gradient(to right,white 100%,grey 0%),url(/images/porsche-356.gif);
   background-repeat: no-repeat;
   background-position: right bottom;
-  background-size: 50% auto;
+  background-size: 40% auto;
   background-blend-mode: darken;
 }
 
@@ -82,11 +82,17 @@ font.highlight {
   font-family:Arial;
 	}
 	
-font.cartitle {
+span.homeheading {
   color: #de0000;
   font-family:Arial;
   font-size: large;
 	}
+
+span.homebody {
+  color: #000000;
+  font-family:Arial;
+  font-size: small;
+  }
 	
 font.footer {
   color: #000000;
