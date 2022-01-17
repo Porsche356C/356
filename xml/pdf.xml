@@ -125,6 +125,7 @@
 	</menu>
 	<menu>
 		<title>Suplement 356B T6 and 356C</title><color>1</color>
+		<item><title>Index</title><url>/pdf/Supplement/Intro/intro.pdf</url></item>
 		<menu>
 			<title>Group E: Engine and Clutch</title><color>-1</color>
 			<item><title>Index</title><url>/pdf/Supplement/Engine/SE.pdf</url></item>	
@@ -236,6 +237,12 @@
 				<title>Gear Axle Drive</title><color>-1</color>
 				<item><title>ZF Limited Slip Standard</title><url>/pdf/Supplement/RearAxle/SR27.pdf</url></item>
 			</menu>
+			<menu>
+				<title>Rear Wheel Suspension</title><color>-1</color>
+				<item><title>356C - Rear Wheel Suspension</title><url>/pdf/Supplement/RearAxle/SR31.pdf</url></item>
+				<item><title>Adjusting Rear Wheel Suspension</title><url>/pdf/Supplement/RearAxle/SR33.pdf</url></item>
+				<item><title>356C - Rear Axle Pivot Stop</title><url>/pdf/Supplement/RearAxle/SR35.pdf</url></item>
+			</menu>
 		</menu>
 		<menu>
 			<title>Group T:  Tires, Brakes, and Wheels</title><color>-1</color>
@@ -280,6 +287,7 @@
 			<item><title>356C Adjust Hand Brake</title><url>/pdf/Supplement/TiresBrakes/ST32.pdf</url></item>
 			<item><title>356C Disc Shrouds</title><url>/pdf/Supplement/TiresBrakes/ST33.pdf</url></item>
 			<item><title>356C Caliper Pistons</title><url>/pdf/Supplement/TiresBrakes/ST34.pdf</url></item>
+			<item><title>Common Failures and Corrective Measures</title><url>/pdf/Supplement/TiresBrakes/ST13.pdf</url></item>
 		</menu>
 		<menu>
 			<title>Group B: Body</title><color>-1</color>
@@ -294,6 +302,7 @@
 			<item><title>Windshield wiper assembly</title><url>/pdf/Supplement/Electrical/SL1.pdf</url></item>
 			<item><title>356B Wiring Diagram</title><url>/pdf/Supplement/Electrical/SL3.pdf</url></item>
 			<item><title>356C Wiring Diagram</title><url>/pdf/Supplement/Electrical/SL5.pdf</url></item>
+			<item><title>356C Color Wiring Diagram</title><url>/pdf/Supplement/Electrical/356c_wiring_diagram.pdf</url></item>
 		</menu>
 		<item><title>Group M: Maintenance</title><url>/pdf/Supplement/Maintenance/SM1.pdf</url></item>
 		<item><title>Group TD: 356C Technical Data</title><url>/pdf/Supplement/TD/TD1.pdf</url></item>
