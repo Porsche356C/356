@@ -14,7 +14,7 @@ sitemap_header = '''<?xml version="1.0" encoding="UTF-8"?>
 
 sitemap_page = '''
     <url>
-        <loc>http://porsche356bc.github.io{}</loc>
+        <loc>https://porsche356bc.github.io{}</loc>
         <lastmod>{}</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
