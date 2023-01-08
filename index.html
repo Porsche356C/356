@@ -5,9 +5,9 @@
 </head>
 
 <body>
-    <script src="xml.js"></script>
-    <script src="diagram.js" defer></script>
-    <script src="table.js" defer></script>
+    <script src="scripts/xml.js"></script>
+    <script src="scripts/diagram.js" defer></script>
+    <script src="scripts/popup.js" defer></script>
     <header class="page-header" id="header">
         <div class="header-wrapper">
             <img src="images/logo.png" id="header-img">
@@ -37,53 +37,59 @@
                 <div class="diagram-container">
                     <h1 class="diagram-name">Rear Suspension: Group 3/7</h1>
                     <div class="diagram-wrapper">
-                        <img src="diagram-3-7.jpg" id="image-map">
-                        <!-- original image size is 724x405 -->
-
+                        <img src="images/group 3-7b.png" usemap="#image-map" id="image-map">
+                        <!-- diagram-3-7.jpg original image size is 724x405 -->
+                        <!-- group 3-7.png 3508 x 2479 -->
                         <!-- overlays to image for clickable parts   -->
                         <div class="overlay-wrapper">
-                            <div class="overlay" data-ref="33B" style="left:98px;  top:139px;" onclick="displayPopup(this)"></div>
-                            <div class="overlay" data-ref="34B" style="left:121px; top:134px;" onclick="displayPopup(this)"></div>
-                            <div class="overlay" data-ref="14" style="left:229px; top:344px;" onclick="displayPopup(this)"></div>
-                            <div class="overlay" data-ref="37B" style="left:317px; top:344px;" onclick="displayPopup(this)"></div>
-                            <div class="overlay" data-ref="15" style="left:338px; top:346px;" onclick="displayPopup(this)"></div>
-                            <div class="overlay" data-ref="16" style="left:354px; top:347px;" onclick="displayPopup(this)"></div>
-                            <div class="overlay" data-ref="29B" style="left:312px; top:249px;" onclick="displayPopup(this)"></div>
-                            <div class="overlay" data-ref="28B" style="left:333px; top:250px;" onclick="displayPopup(this)"></div>
-                            <div class="overlay" data-ref="24B" style="left:360px; top:250px;" onclick="displayPopup(this)"></div>
-                            <div class="overlay" data-ref="24B" style="left:293px; top:135px;" onclick="displayPopup(this)"></div>
-                            <div class="overlay" data-ref="23B" style="left:310px; top:135px;" onclick="displayPopup(this)"></div>
-                            <div class="overlay" data-ref="22B" style="left:327px; top:135px;" onclick="displayPopup(this)"></div>
-                            <div class="overlay" data-ref="21B" style="left:344px; top:135px;" onclick="displayPopup(this)"></div>
-                            <div class="overlay" data-ref="23B" style="left:401px; top:134px;" onclick="displayPopup(this)"></div>
-                            <div class="overlay" data-ref="24B" style="left:421px; top:134px;" onclick="displayPopup(this)"></div>
-                            <div class="overlay" data-ref="12" style="left:337px; top:76px;" onclick="displayPopup(this)"></div>
-                            <div class="overlay" data-ref="44B" style="left:240px; top:46px;" onclick="displayPopup(this)"></div>
-                            <div class="overlay" data-ref="43B" style="left:240px; top:63px;" onclick="displayPopup(this)"></div>
+                            <div class="overlay" title="Spring bar cover plate both" data-ref="33B" style="left:393px; top:796px;" onclick="displayPopup(this)" onmouseover="toolTip(this)" onmouseout="clearTip(this)"></div>
+                            <div class="overlay" title="Spring bar cover plate flat washer" data-ref="34B" style="left:452px; top:795px;" onclick="displayPopup(this)" onmouseover="toolTip(this)" onmouseout="clearTip(this)"></div>
+                            <div class="overlay" title="Shock lower mount bolt" data-ref="14" style="left:790px; top:1477px;" onclick="displayPopup(this)" onmouseover="toolTip(this)" onmouseout="clearTip(this)"></div>
+                            <div class="overlay" title="Shock lower mount flat washer" data-ref="37B" style="left:1096px; top:1481px;" onclick="displayPopup(this)" onmouseover="toolTip(this)" onmouseout="clearTip(this)"></div>
+                            <div class="overlay" title="Shock lower mount spring washer" data-ref="15" style="left:1155px; top:1478px;" onclick="displayPopup(this)" onmouseover="toolTip(this)" onmouseout="clearTip(this)"></div>
+                            <div class="overlay" title="Shock lower mount nut" data-ref="16" style="left:1212px; top:1478px;" onclick="displayPopup(this)" onmouseover="toolTip(this)" onmouseout="clearTip(this)"></div>
+                            <div class="overlay" title="" data-ref="29B" style="left:1077px; top:1160px;" onclick="displayPopup(this)" onmouseover="toolTip(this)" onmouseout="clearTip(this)"></div>
+                            <div class="overlay" title="" data-ref="28B" style="left:1215px; top:1160px;" onclick="displayPopup(this)" onmouseover="toolTip(this)" onmouseout="clearTip(this)"></div>
+                            <div class="overlay" title="Bumper stop spring washer" data-ref="24B" style="left:1270px; top:1161px;" onclick="displayPopup(this)" onmouseover="toolTip(this)" onmouseout="clearTip(this)"></div>
+                            <div class="overlay" title="Bumper stop nut" data-ref="24B" style="left:1010px; top:802px" ,23;" onclick="displayPopup(this)" onmouseover="toolTip(this)" onmouseout="clearTip(this)"></div>
+                            <div class="overlay" title="" data-ref="23B" style="left:1061px; top:802px;" onclick="displayPopup(this)" onmouseover="toolTip(this)" onmouseout="clearTip(this)"></div>
+                            <div class="overlay" title="" data-ref="22B" style="left:1114px; top:802px;" onclick="displayPopup(this)" onmouseover="toolTip(this)" onmouseout="clearTip(this)"></div>
+                            <div class="overlay" title="" data-ref="21B" style="left:1167px; top:801px;" onclick="displayPopup(this)" onmouseover="toolTip(this)" onmouseout="clearTip(this)"></div>
+                            <div class="overlay" title="Shock upper mount nut" data-ref="44B" style="left:812px; top:539px;" onclick="displayPopup(this)" onmouseover="toolTip(this)" onmouseout="clearTip(this)"></div>
+                            <div class="overlay" title="Shock upper mount flat washer" data-ref="43B" style="left:812px; top:597px;" onclick="displayPopup(this)" onmouseover="toolTip(this)" onmouseout="clearTip(this)"></div>
+                            <div class="overlay" title="Bumper stop bolt" data-ref="12" style="left:1139px; top:623px;" onclick="displayPopup(this)" onmouseover="toolTip(this)" onmouseout="clearTip(this)"></div>
+                            <div class="overlay" title="" data-ref="24B" style="left:1406px; top:801px;" onclick="displayPopup(this)" onmouseover="toolTip(this)" onmouseout="clearTip(this)"></div>
+                            <div class="overlay" title="" data-ref="23B" style="left:1348px; top:802px;" onclick="displayPopup(this)" onmouseover="toolTip(this)" onmouseout="clearTip(this)"></div>
                         </div>
 
+                        <!-- area size for grouop 3-7.png
+                        <area target="" alt="" title="" href="" coords="482,1137,40" shape="circle">
+                         -->
+
+
                         <!-- image map is provide coordinates for overlays, but the areas are bnot actually used as I could not figure out
-                how to scale them  -->
+                             how to scale them  -->
+                        <!-- Image Map Generated by http://www.image-map.net/ -->
                         <!-- <map name="image-map">
-                    <area target="_self" alt="Torsion bar cover bolt" title="Torsion bar cover bolt" href="#33B" coords="98, 139, 9" shape="circle">
-                    <area target="_self" alt="Torsion bar cover flat washer" title="Torsion bar cover flat washer" href="#34B" coords="121,134,9" shape="circle">
-                    <area target="_self" alt="Shock lower mount bolt" title="Shock lower mount bolt" href="#14" coords="229,344,7" shape="circle">
-                    <area target="_self" alt="shock lower mount spring washer" title="shock lower mount spring washer" href="#37B" coords="317,344,7" shape="circle">
-                    <area target="_self" alt="shock lower amount flat washer" title="shock lower amount flat washer" href="#15" coords="338,346,7" shape="circle">
-                    <area target="_self" alt="shock lower mount nut" title="shock lower mount nut" href="#16" coords="354,347,7" shape="circle">
-                    <area target="_self" alt="bolt" title="bolt" href="#29B" coords="312,249,8" shape="circle">
-                    <area target="_self" alt="washer" title="washer" href="#28B" coords="333,250,8" shape="circle">
-                    <area target="_self" alt="nut" title="nut" href="#24B" coords="360,250,8" shape="circle">
-                    <area target="_self" alt="nut" title="nut" href="#24B" coords="293,135,8" shape="circle">
-                    <area target="_self" alt="Spring washer" title="Spring washer" href="#23B" coords="310,135,7" shape="circle">
-                    <area target="_self" alt="Flat washer" title="Flat washer" href="#22B" coords="327,135,8" shape="circle">
-                    <area target="_self" alt="Nut" title="Nut" href="#21B" coords="344,135,8" shape="circle">
-                    <area target="_self" alt="" title="" href="#23B" coords="401,134,8" shape="circle">
-                    <area target="_self" alt="" title="" href="#24B" coords="421,134,8" shape="circle">
-                    <area target="_self" alt="Bumper stop mount screw" title="Bumper stop mount screw" href="#12" coords="337,76,8" shape="circle">
-                    <area target="_self" alt="Shock upper mount nut" title="Shock upper mount nut" href="#44B" coords="240,46,8" shape="circle">
-                    <area target="_self" alt="Shock upper mount flat washer" title="Shock upper mount flat washer" href="#43B" coords="240,63,7" shape="circle">
-                </map> -->
+                            <area target="" alt="Spring bar cover plate both" title="Spring bar cover plate both" href="33B" coords="393,796,27" shape="circle">
+                            <area target="" alt="Spring bar cover plate flat washer" title="Spring bar cover plate flat washer" href="34B" coords="452,795,28" shape="circle">
+                            <area target="" alt="Shock lower mount bolt" title="Shock lower mount bolt" href="14" coords="790,1477,28" shape="circle">
+                            <area target="" alt="Shock lower mount flat washer" title="Shock lower mount flat washer" href="37B" coords="1096,1481,26" shape="circle">
+                            <area target="" alt="Shock lower mount spring washer" title="Shock lower mount spring washer" href="15" coords="1155,1478,27" shape="circle">
+                            <area target="" alt="Shock lower mount nut" title="Shock lower mount nut" href="16" coords="1212,1478,25" shape="circle">
+                            <area target="" alt="" title="" href="29B" coords="1077,1160,24" shape="circle">
+                            <area target="" alt="" title="" href="28B" coords="1215,1160,22" shape="circle">
+                            <area target="" alt="Bumper stop spring washer" title="Bumper stop spring washer" href="24B" coords="1270,1161,23" shape="circle">
+                            <area target="" alt="Bumper stop nut" title="Bumper stop nut" href="24B" coords="1010,802,23" shape="circle">
+                            <area target="" alt="" title="" href="23B" coords="1061,802,23" shape="circle">
+                            <area target="" alt="" title="" href="22B" coords="1114,802,23" shape="circle">
+                            <area target="" alt="" title="" href="21B" coords="1167,801,23" shape="circle">
+                            <area target="" alt="Shock upper mount nut" title="Shock upper mount nut" href="44B" coords="812,539,24" shape="circle">
+                            <area target="" alt="Shock upper mount flat washer" title="Shock upper mount flat washer" href="43B" coords="812,597,25" shape="circle">
+                            <area target="" alt="Bumper stop bolt" title="Bumper stop bolt" href="12" coords="1139,623,26" shape="circle">
+                            <area target="" alt="" title="" href="24B" coords="1406,801,24" shape="circle">
+                            <area target="" alt="" title="" href="23B" coords="1348,802,28" shape="circle">
+                        </map> -->
 
                         <!-- table used for single part popup -->
                         <div class="popup-wrapper" id="popup-wrapper">
