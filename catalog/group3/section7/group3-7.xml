@@ -1,0 +1,86 @@
+<partslist>
+	<part>
+		<diagram_name>Rear axle</diagram_name>
+		<ref>33B</ref>
+		<catalog>356B_Catalog_of_Spare_Parts.pdf</catalog>
+		<group>3/7</group>
+		<item>33</item>
+		<description>Spring arm cover bolt</description>
+		<partno>900.074.057.02</partno>
+		<qty>8</qty>
+		<DIN>DIN 931-86</DIN>
+		<size>M10x30</size>
+		<finish>gal Zn 9</finish>
+		<note>-</note>
+	</part>
+	<part>
+		<diagram_name>Rear axle</diagram_name>
+		<ref>34B</ref>
+		<catalog>356B_Catalog_of_Spare_Parts.pdf</catalog>
+		<group>3/7</group>
+		<item>34</item>
+		<description>Spring arm cover flat washer</description>
+		<partno>900.025.008.02 </partno>
+		<qty>8</qty>
+		<DIN>DIN 125-St </DIN>
+		<size>M10</size>
+		<finish>gal Zn 9</finish>
+		<note>-</note>
+	</part>
+	<part>
+		<diagram_name>Rear axle</diagram_name>
+		<ref>14</ref>
+		<catalog>Parts_Manual_356C_T6C_Supplement.pdf</catalog>
+		<group>3/7C</group>
+		<item>14</item>
+		<description>lower shock mount bolt</description>
+		<partno>900.002.011.02 </partno>
+		<qty>2</qty>
+		<DIN>DIN 960-8G</DIN>
+		<size>M12x1.5x75</size>
+		<finish>gal Zn 9</finish>
+		<note>-</note>
+	</part>
+	<part>
+		<diagram_name>Rear axle</diagram_name>
+		<ref>37B</ref>
+		<catalog>356B_Catalog_of_Spare_Parts.pdf</catalog>
+		<group>3/7</group>
+		<item>37</item>
+		<description>lower shock mount flat washer</description>
+		<partno>900.025.009.01</partno>
+		<qty>2</qty>
+		<DIN>DIN 125-St </DIN>
+		<size>M12</size>
+		<finish>phr E</finish>
+		<note>-</note>
+	</part>
+	<part>
+		<diagram_name>Rear axle</diagram_name>
+		<ref>15</ref>
+		<catalog>Parts_Manual_356C_T6C_Supplement.pdf</catalog>
+		<group>3/7C</group>
+		<item>15</item>
+		<description>lower shock mount spring washer</description>
+		<partno>900.027.017.01</partno>
+		<qty>2</qty>
+		<DIN>DIN 127</DIN>
+		<size>M12 B</size>
+		<finish>Bostik</finish>
+		<note>-</note>
+	</part>
+	<part>
+		<diagram_name>Rear axle</diagram_name>
+		<ref>16</ref>
+		<catalog>Parts_Manual_356C_T6C_Supplement.pdf</catalog>
+		<group>3/7C</group>
+		<item>16</item>
+		<description>lower shock mount nut</description>
+		<partno>900.076.016.02 </partno>
+		<qty>2</qty>
+		<DIN>DIN 934-6s </DIN>
+		<size>M12x1.5</size>
+		<finish>gal Zn 9</finish>
+		<note>-</note>
+	</part>
+</partslist>

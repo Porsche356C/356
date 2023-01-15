@@ -49,53 +49,72 @@ body.header {
 
 
 
-.breadcrumbs a {
+/* .breadcrumbs a {
     float: left;
     color: #32AFFF;
     font-weight: 700;
     font-size: 14px;
     text-transform: uppercase;
 }
-
-ol, ul {
+*/
+ul.breadcrumbs {
+    display: flex;
     list-style: none;
     margin: 0px;
     padding: 0px;
-    display: block;
-    /* list-style-type: disc; */
-    /* margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    padding-inline-start: 40px; */
 }
 
-.breadcrumbs li {
+/* .breadcrumbs li {
     float: left;
     font-size: 14px;
     text-transform: uppercase;
-    }
+    } */
 
+
+/* ================================================================
+PAGE LAYOUT
+ ================================================================ */
+
+ .breadcrumbs {
+    display:flex;
+    margin: 30px auto 60px;
+    padding: 0 30px;
+    overflow: hidden;
+    color: #32AFFF;
+    font-weight: 700;
+    font-size: 14px;
+    text-transform: uppercase;
+    list-style: none;
+}
+
+ div.container {
+    display: flex;
+    padding-left: 20px;
+    padding-right: 20px;
+ }
+
+ div.column {
+    
+ }
+
+/* ==== 
+NAVIGATION COLUMN
+ ==== */
 
 
 
 /* ==== 
-CONTAINER RELATIONSHPS
+MAIN CONTENT COLUMN with DIAGRAM
  ==== */
 
-div.main-container {
-    padding: 10px 0 0;
+div.column.menu {
+    margin-left: 20px;
+    padding: 50px 2px;
 }
 
-div.main {
+div.column.main {
     margin: 0px;
     padding: 0px;
-}
-
-.breadcrumbs {
-    margin: 30px auto 60px;
-    padding: 0 30px;
-    overflow: hidden;
 }
 
 div.col-main {
@@ -106,6 +125,8 @@ div.col-main {
 div.diagram-container {
     margin: 0 auto;
     padding: 0 30px;
+    border: 2px solid lightgray;
+    /* background-color: lightgray; */
 }
 
 .diagram-container h1 {
@@ -115,8 +136,10 @@ div.diagram-container {
 
 div.diagram-wrapper {
     position: relative;
+    /* position: absolute; */
     margin: 0 0 90px;
     padding: 0px;
+    max-width: 100%;
     }
 
 img#image-map {
@@ -125,8 +148,8 @@ img#image-map {
     top: 0px;
     width: 100%;
     height: auto;
-    border: 2px solid lightgray;
-    max-width: 100%; 
+
+    /* max-width: 100%;  */
     /* margin: 20px 0; */
     margin-bottom: 20px;
     padding: 0;
@@ -134,7 +157,7 @@ img#image-map {
 
 div.overlay-wrapper {
     position: absolute;
-    left: 0%;
+    left: 0px;
     top: 0px;
 }
 
@@ -155,7 +178,7 @@ div.overlay:hover {
 div.overlay-text {
     position: relative;
     display: block;
-    min-width: 250px;
+    width: max-content;
     max-width: 500px;
     margin: -30px;
     background-color: white;
@@ -164,6 +187,9 @@ div.overlay-text {
 }
 
 
+/* ================================================================
+TABLES
+=================================================================== */
 /* 
 parts list table &
 Part popup table
@@ -175,7 +201,8 @@ div.partslist-wrapper {
 
 div#table-partslist {
     position: relative;
-    left: 10%;
+    padding-top: 10px;
+    /* left: 10%; */
 }
 
 table {
@@ -194,9 +221,9 @@ tr.selected {
     background-color: yellow;
     }
 
-/* ========
+/* ================================================================
 POPUP PART TABLE
-======= */
+=================================================================== */
 div.popup-wrapper {
     position: absolute;
     left: 10%;
@@ -245,7 +272,57 @@ a.close-popup:hover {
     }
 
 
+/* ================================================================
+Menu
+=================================================================== */
+.menu h3{
+    display: block;
+    font-size: 30px;
+    width: 100%;
+    padding-top: 15px;
+    margin-bottom: 0px;
+    font-weight: 700;
+    font-family: 'Lato',Helvetica,Arial,sans-serif;
+    font-style: normal;
+}    
 
-        
+.menu ul {
+    list-style: none none;
+    padding-inline-start: 1em;
+    margin-top: 0px;
+}
 
+.menu li {
+    /* padding-right: 20px; */
 
+    padding-left: 12px;
+    border-bottom: 1px solid #e0e0e0;
+    width: 200px;
+
+}
+
+a.menu-item {
+    display: block;
+    padding: 15px 0;
+    text-decoration: none;
+}
+
+a.menu-item, span.menu-item {
+    display: block;
+    font-size: 23px;
+    cursor: pointer;
+    font-weight: 700;
+    font-family: 'Lato',Helvetica,Arial,sans-serif;
+    font-style: normal;
+}
+
+a.menu-item:hover {
+    color: #004e95;
+    background-color: #f9f9f9;
+}
+
+a.menu-item:active {
+    color: #135d96;
+    text-decoration: none;
+    background-color: lightskyblue;
+}

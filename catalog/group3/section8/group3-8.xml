@@ -1,0 +1,324 @@
+<partslist>
+	<part>
+		<diagram_name>Brakes</diagram_name>
+		<ref>2</ref>
+		<catalog>Parts_Manual_356C_T6C_Supplement.pdf</catalog>
+		<group>3/8c</group>
+		<item>2</item>
+		<description>hexagon screw</description>
+		<partno>900.082.006.01 </partno>
+		<qty>4</qty>
+		<DIN>DIN 960-8G</DIN>
+		<size>M12x1, 5x30</size>
+		<finish>Bostik</finish>
+		<note>-</note>
+	</part>
+	<part>
+		<diagram_name>Brakes</diagram_name>
+		<ref>3</ref>
+		<catalog>Parts_Manual_356C_T6C_Supplement.pdf</catalog>
+		<group>3/8c</group>
+		<item>3</item>
+		<description>spring washer</description>
+		<partno>900.028.014.01 </partno>
+		<qty>4</qty>
+		<DIN>DIN 137</DIN>
+		<size>B12</size>
+		<finish>bost.</finish>
+		<note>-</note>
+	</part>
+	<part>
+		<diagram_name>Brakes</diagram_name>
+		<ref>6</ref>
+		<catalog>Parts_Manual_356C_T6C_Supplement.pdf</catalog>
+		<group>3/8c</group>
+		<item>6</item>
+		<description>cheese-head screw</description>
+		<partno>900.067.058.01</partno>
+		<qty>8</qty>
+		<DIN>DIN 912-10</DIN>
+		<size>M8x50</size>
+		<finish>bost.</finish>
+		<note>-</note>
+	</part>
+	<part>
+		<diagram_name>Brakes</diagram_name>
+		<ref>7</ref>
+		<catalog>Parts_Manual_356C_T6C_Supplement.pdf</catalog>
+		<group>3/8c</group>
+		<item>7</item>
+		<description>spring washer</description>
+		<partno>900.027.015.01</partno>
+		<qty>8</qty>
+		<DIN>DIN 127</DIN>
+		<size>B8</size>
+		<finish>bost.</finish>
+		<note>-</note>
+	</part>
+	<part>
+		<diagram_name>Brakes</diagram_name>
+		<ref>8</ref>
+		<catalog>Parts_Manual_356C_T6C_Supplement.pdf</catalog>
+		<group>3/8c</group>
+		<item>8</item>
+		<description>Heaxgon nut</description>
+		<partno>900.076.026.01</partno>
+		<qty>8</qty>
+		<DIN>DIN 934-8G</DIN>
+		<size>M8</size>
+		<finish>phr B</finish>
+		<note>-</note>
+	</part>
+	<part>
+		<diagram_name>Brakes</diagram_name>
+		<ref>21</ref>
+		<catalog>Parts_Manual_356C_T6C_Supplement.pdf</catalog>
+		<group>3/8c</group>
+		<item>21</item>
+		<description>Hexagon screw</description>
+		<partno>900.075.079.02</partno>
+		<qty>10</qty>
+		<DIN>DIN 933-8G</DIN>
+		<size>M8x22</size>
+		<finish>gal Zn 9</finish>
+		<note>-</note>
+	</part>
+	<part>
+		<diagram_name>Brakes</diagram_name>
+		<ref>22</ref>
+		<catalog>Parts_Manual_356C_T6C_Supplement.pdf</catalog>
+		<group>3/8c</group>
+		<item>22</item>
+		<description>spring washer</description>
+		<partno>900.026.010.01</partno>
+		<qty>20</qty>
+		<DIN>DIN 137</DIN>
+		<size>B8</size>
+		<finish>bost.</finish>
+		<note>-</note>
+	</part>
+	<part>
+		<diagram_name>Brakes</diagram_name>
+		<ref>23</ref>
+		<catalog>Parts_Manual_356C_T6C_Supplement.pdf</catalog>
+		<group>3/8c</group>
+		<item>23</item>
+		<description>hexagon nut</description>
+		<partno>900.076.025.02</partno>
+		<qty>10</qty>
+		<DIN>DIN 934-6S</DIN>
+		<size>SW 13 M8</size>
+		<finish>gal Zn 9</finish>
+		<note>-</note>
+	</part>
+	<part>
+		<diagram_name>Brakes</diagram_name>
+		<ref>26</ref>
+		<catalog>Parts_Manual_356C_T6C_Supplement.pdf</catalog>
+		<group>3/8c</group>
+		<item>26</item>
+		<description>heaxagon screw</description>
+		<partno>900.075.080.02</partno>
+		<qty>6</qty>
+		<DIN>DIN 933-8G</DIN>
+		<size>SW 13 M8x12</size>
+		<finish>gal Zn 9</finish>
+		<note>-</note>
+	</part>
+	<part>
+		<diagram_name>Brakes</diagram_name>
+		<ref>27</ref>
+		<catalog>Parts_Manual_356C_T6C_Supplement.pdf</catalog>
+		<group>3/8c</group>
+		<item>27</item>
+		<description>heaxagon screw</description>
+		<partno>900.075.079.02</partno>
+		<qty>2</qty>
+		<DIN>DIN 933-8G</DIN>
+		<size>SW 13 M8x22</size>
+		<finish>gal Zn 9</finish>
+		<note>length as required</note>
+	</part>
+	<part>
+		<diagram_name>Brakes</diagram_name>
+		<ref>27</ref>
+		<catalog>Parts_Manual_356C_T6C_Supplement.pdf</catalog>
+		<group>3/8c</group>
+		<item>27</item>
+		<description>heaxagon screw</description>
+		<partno>900.075.081.02</partno>
+		<qty>2</qty>
+		<DIN>DIN 933-8G</DIN>
+		<size>SW 13 M8x23</size>
+		<finish>gal Zn 9</finish>
+		<note>length as required</note>
+	</part>
+	<part>
+		<diagram_name>Brakes</diagram_name>
+		<ref>27</ref>
+		<catalog>Parts_Manual_356C_T6C_Supplement.pdf</catalog>
+		<group>3/8c</group>
+		<item>27</item>
+		<description>heaxagon screw</description>
+		<partno>900.075.082.02</partno>
+		<qty>2</qty>
+		<DIN>DIN 933-8G</DIN>
+		<size>SW 13 M8x24</size>
+		<finish>gal Zn 9</finish>
+		<note>length as required</note>
+	</part>
+	<part>
+		<diagram_name>Brakes</diagram_name>
+		<ref>27</ref>
+		<catalog>Parts_Manual_356C_T6C_Supplement.pdf</catalog>
+		<group>3/8c</group>
+		<item>27</item>
+		<description>heaxagon screw</description>
+		<partno>900.075.083.02</partno>
+		<qty>2</qty>
+		<DIN>DIN 933-8G</DIN>
+		<size>SW 13 M8x25</size>
+		<finish>gal Zn 9</finish>
+		<note>length as required</note>
+	</part>
+	<part>
+		<diagram_name>Brakes</diagram_name>
+		<ref>36</ref>
+		<catalog>Parts_Manual_356C_T6C_Supplement.pdf</catalog>
+		<group>3/8c</group>
+		<item>36</item>
+		<description>heaxagon screw</description>
+		<partno>900.075.090.01</partno>
+		<qty>4</qty>
+		<DIN>DIN 933-10K</DIN>
+		<size>M10x25</size>
+		<finish>bost.</finish>
+		<note>-</note>
+	</part>
+	<part>
+		<diagram_name>Brakes</diagram_name>
+		<ref>37</ref>
+		<catalog>Parts_Manual_356C_T6C_Supplement.pdf</catalog>
+		<group>3/8c</group>
+		<item>37</item>
+		<description>spring washer</description>
+		<partno>900.028.012.01</partno>
+		<qty>4</qty>
+		<DIN>DIN 137</DIN>
+		<size>B10</size>
+		<finish>bost.</finish>
+		<note>-</note>
+	</part>
+	<part>
+		<diagram_name>Brakes</diagram_name>
+		<ref>40</ref>
+		<catalog>Parts_Manual_356C_T6C_Supplement.pdf</catalog>
+		<group>3/8c</group>
+		<item>40</item>
+		<description>schesse-head screw</description>
+		<partno>900.067.059/01</partno>
+		<qty>8</qty>
+		<DIN>DIN 912-12K</DIN>
+		<size>M6x45</size>
+		<finish>phr B</finish>
+		<note>-</note>
+	</part>
+	<part>
+		<diagram_name>Brakes</diagram_name>
+		<ref>41</ref>
+		<catalog>Parts_Manual_356C_T6C_Supplement.pdf</catalog>
+		<group>3/8c</group>
+		<item>41</item>
+		<description>spring washer</description>
+		<partno>900.027.013.01</partno>
+		<qty>8</qty>
+		<DIN>DIN 127</DIN>
+		<size>B6</size>
+		<finish>bost.</finish>
+		<note>-</note>
+	</part>
+	<part>
+		<diagram_name>Brakes</diagram_name>
+		<ref>42</ref>
+		<catalog>Parts_Manual_356C_T6C_Supplement.pdf</catalog>
+		<group>3/8c</group>
+		<item>42</item>
+		<description>hexagon nut</description>
+		<partno>900.076.023.01</partno>
+		<qty>8</qty>
+		<DIN>DIN 934-8G</DIN>
+		<size>M6</size>
+		<finish>phr B</finish>
+		<note>-</note>
+	</part>
+	<part>
+		<diagram_name>Brakes</diagram_name>
+		<ref>52</ref>
+		<catalog>Parts_Manual_356C_T6C_Supplement.pdf</catalog>
+		<group>3/8c</group>
+		<item>52</item>
+		<description>countersunk screw</description>
+		<partno>900.013.024.02</partno>
+		<qty>4</qty>
+		<DIN>DIN 63-5S</DIN>
+		<size>AM 6x10</size>
+		<finish>gal Zn 9</finish>
+		<note>-</note>
+	</part>
+	<part>
+		<diagram_name>Brakes</diagram_name>
+		<ref>54</ref>
+		<catalog>Parts_Manual_356C_T6C_Supplement.pdf</catalog>
+		<group>3/8c</group>
+		<item>54</item>
+		<description>heaxagon screw</description>
+		<partno>900.028.010.01</partno>
+		<qty>8</qty>
+		<DIN>DIN 933-8G</DIN>
+		<size>M8x8</size>
+		<finish>gal Zn 9</finish>
+		<note>-</note>
+	</part>
+	<part>
+		<diagram_name>Brakes</diagram_name>
+		<ref>55</ref>
+		<catalog>Parts_Manual_356C_T6C_Supplement.pdf</catalog>
+		<group>3/8c</group>
+		<item>55</item>
+		<description>spring washer</description>
+		<partno>900.028.010.01</partno>
+		<qty>8</qty>
+		<DIN>DIN 137</DIN>
+		<size>B8</size>
+		<finish>bost.</finish>
+		<note>-</note>
+	</part>
+	<part>
+		<diagram_name>Brakes</diagram_name>
+		<ref>71</ref>
+		<catalog>Parts_Manual_356C_T6C_Supplement.pdf</catalog>
+		<group>3/8c</group>
+		<item>71</item>
+		<description>spring washer</description>
+		<partno>900.028.010.01</partno>
+		<qty>8</qty>
+		<DIN>DIN 137</DIN>
+		<size>B8</size>
+		<finish>bost.</finish>
+		<note>-</note>
+	</part>
+	<part>
+		<diagram_name>Brakes</diagram_name>
+		<ref>72</ref>
+		<catalog>Parts_Manual_356C_T6C_Supplement.pdf</catalog>
+		<group>3/8c</group>
+		<item>72</item>
+		<description>Hexagon screw</description>
+		<partno>900.075.098.02</partno>
+		<qty>8</qty>
+		<DIN>DIN 933-10K</DIN>
+		<size>M8x18</size>
+		<finish>SW 13 verz.</finish>
+		<note>-</note>
+	</part>
+</partslist>

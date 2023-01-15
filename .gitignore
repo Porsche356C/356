@@ -1,3 +1,4 @@
 .vscode/
 .venv/
 356parts/
+.DSTORE

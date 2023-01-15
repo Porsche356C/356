@@ -1,0 +1,212 @@
+<partslist>
+	<part>
+		<diagram_name>Steering</diagram_name>
+		<ref>6B</ref>
+		<catalog>356B_Catalog_of_Spare_Parts.pdf</catalog>
+		<group>3/5</group>
+		<item>6</item>
+		<description>castellated nut</description>
+		<partno>900.079.004.01</partno>
+		<qty>4</qty>
+		<DIN>DIN 937-6S</DIN>
+		<size>M10x1</size>
+		<finish>phr E</finish>
+		<note>-</note>
+	</part>
+	<part>
+		<diagram_name>Steering</diagram_name>
+		<ref>14B</ref>
+		<catalog>356B_Catalog_of_Spare_Parts.pdf</catalog>
+		<group>3/5</group>
+		<item>14</item>
+		<description>hexagon screw for clip</description>
+		<partno>900.082.001.00</partno>
+		<qty>4</qty>
+		<DIN>DIN 960-8G</DIN>
+		<size>M8x1x30</size>
+		<finish>none</finish>
+		<note>-</note>
+	</part>
+	<part>
+		<diagram_name>Steering</diagram_name>
+		<ref>15B</ref>
+		<catalog>356B_Catalog_of_Spare_Parts.pdf</catalog>
+		<group>3/5</group>
+		<item>15</item>
+		<description>spring wasger</description>
+		<partno>900.027.015.01</partno>
+		<qty>4</qty>
+		<DIN>DIN 127</DIN>
+		<size>B8</size>
+		<finish>phr E</finish>
+		<note>-</note>
+	</part>
+	<part>
+		<diagram_name>Steering</diagram_name>
+		<ref>16B</ref>
+		<catalog>356B_Catalog_of_Spare_Parts.pdf</catalog>
+		<group>3/5</group>
+		<item>16</item>
+		<description>hexagon nut</description>
+		<partno>900.076.014.00</partno>
+		<qty>4</qty>
+		<DIN>DIN 934-6S</DIN>
+		<size>M8x1</size>
+		<finish>none</finish>
+		<note>-</note>
+	</part>
+	<part>
+		<diagram_name>Steering</diagram_name>
+		<ref>18B</ref>
+		<catalog>356B_Catalog_of_Spare_Parts.pdf</catalog>
+		<group>3/5</group>
+		<item>18</item>
+		<description>hexagon bolt</description>
+		<partno>900.082.010.02</partno>
+		<qty>1</qty>
+		<DIN>DIN 960-8G</DIN>
+		<size>M10x1x52 S</size>
+		<finish>verz.</finish>
+		<note>-</note>
+	</part>
+	<part>
+		<diagram_name>Steering</diagram_name>
+		<ref>25B</ref>
+		<catalog>356B_Catalog_of_Spare_Parts.pdf</catalog>
+		<group>3/5</group>
+		<item>25</item>
+		<description>hexagon bolt</description>
+		<partno>900.074.038.02</partno>
+		<qty>1</qty>
+		<DIN>DIN 931-8G</DIN>
+		<size>M8x40</size>
+		<finish>gal Zn 12</finish>
+		<note>-</note>
+	</part>
+	<part>
+		<diagram_name>Steering</diagram_name>
+		<ref>26B</ref>
+		<catalog>356B_Catalog_of_Spare_Parts.pdf</catalog>
+		<group>3/5</group>
+		<item>26</item>
+		<description>hexagon nut</description>
+		<partno>900.076.013.02</partno>
+		<qty>1</qty>
+		<DIN>DIN 934-6S</DIN>
+		<size>M8</size>
+		<finish>gal Zn 9</finish>
+		<note>-</note>
+	</part>
+	<part>
+		<diagram_name>Steering</diagram_name>
+		<ref>32B</ref>
+		<catalog>356B_Catalog_of_Spare_Parts.pdf</catalog>
+		<group>3/5</group>
+		<item>32</item>
+		<description>hollow-head cap screw</description>
+		<partno>900.067.015.01</partno>
+		<qty>2</qty>
+		<DIN>DIN 912-8G</DIN>
+		<size>M6x45</size>
+		<finish>phr E</finish>
+		<note>for Roadster from chassis coupe:11931 cab:153591 roadster: 88040</note>
+	</part>
+	<part>
+		<diagram_name>Steering</diagram_name>
+		<ref>32B</ref>
+		<catalog>356B_Catalog_of_Spare_Parts.pdf</catalog>
+		<group>3/5</group>
+		<item>32</item>
+		<description>hollow-head cap screw</description>
+		<partno>900.067.013.02</partno>
+		<qty>2</qty>
+		<DIN>DIN 912-8G</DIN>
+		<size>M6x35</size>
+		<finish>gal Zn 9</finish>
+		<note>from chassis coupe:11931 cab:153591 roadster: 88040</note>
+	</part>
+	<part>
+		<diagram_name>Steering</diagram_name>
+		<ref>33B</ref>
+		<catalog>356B_Catalog_of_Spare_Parts.pdf</catalog>
+		<group>3/5</group>
+		<item>33</item>
+		<description>washer, large</description>
+		<partno>900.151.003.00</partno>
+		<qty>2</qty>
+		<DIN>DIN 9021</DIN>
+		<size>A6</size>
+		<finish>none</finish>
+		<note>UPTO chassis coupe:111931 cab:153591 roadster:88040</note>
+	</part>
+	<part>
+		<diagram_name>Steering</diagram_name>
+		<ref>35B</ref>
+		<catalog>356B_Catalog_of_Spare_Parts.pdf</catalog>
+		<group>3/5</group>
+		<item>35</item>
+		<description>spring washer</description>
+		<partno>900.027.004.01</partno>
+		<qty>2</qty>
+		<DIN>DIN 127</DIN>
+		<size>A6</size>
+		<finish>phr</finish>
+		<note>upto chassis coupe:111931 cab:153591 roadster:88040</note>
+	</part>
+	<part>
+		<diagram_name>Steering</diagram_name>
+		<ref>36B</ref>
+		<catalog>356B_Catalog_of_Spare_Parts.pdf</catalog>
+		<group>3/5</group>
+		<item>36</item>
+		<description>spring washer</description>
+		<partno>900.142.003.01</partno>
+		<qty>2</qty>
+		<DIN>DIN 7980</DIN>
+		<size>A6</size>
+		<finish>phr E</finish>
+		<note>from chassis coupe:11931 cab:153591 roadster: 88040</note>
+	</part>
+	<part>
+		<diagram_name>Steering</diagram_name>
+		<ref>37B</ref>
+		<catalog>356B_Catalog_of_Spare_Parts.pdf</catalog>
+		<group>3/5</group>
+		<item>37</item>
+		<description>hexagon nut</description>
+		<partno>900.076.010.01</partno>
+		<qty>2</qty>
+		<DIN>DIN 934-6S</DIN>
+		<size>M6</size>
+		<finish>phr E</finish>
+		<note>UPTO chassis coupe:11931 cab:153591 roadster: 88040</note>
+	</part>
+	<part>
+		<diagram_name>Steering</diagram_name>
+		<ref>46B</ref>
+		<catalog>356B_Catalog_of_Spare_Parts.pdf</catalog>
+		<group>3/5</group>
+		<item>46</item>
+		<description>hexagon nut</description>
+		<partno>900.078.007.01</partno>
+		<qty>1</qty>
+		<DIN>DIN 936-6S</DIN>
+		<size>M18x1.5</size>
+		<finish>phr E</finish>
+		<note>-</note>
+	</part>
+	<part>
+		<diagram_name>Steering</diagram_name>
+		<ref>47B</ref>
+		<catalog>356B_Catalog_of_Spare_Parts.pdf</catalog>
+		<group>3/5</group>
+		<item>47</item>
+		<description>spring washer</description>
+		<partno>900.028.015.01</partno>
+		<qty>1</qty>
+		<DIN>DIN 137</DIN>
+		<size>B18</size>
+		<finish>phr E</finish>
+		<note>-</note>
+	</part>
+</partslist>

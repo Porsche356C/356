@@ -1,0 +1,226 @@
+<partslist>
+	<part>
+		<diagram_name>Front axle</diagram_name>
+		<ref>11B</ref>
+		<catalog>356B_Catalog_of_Spare_Parts.pdf</catalog>
+		<group>3/4</group>
+		<item>11</item>
+		<description>spring washer</description>
+		<partno>900.027.015.01</partno>
+		<qty>2</qty>
+		<DIN>DIN 127</DIN>
+		<size>B8</size>
+		<finish>bost.</finish>
+		<note>-</note>
+	</part>
+	<part>
+		<diagram_name>Front axle</diagram_name>
+		<ref>12B</ref>
+		<catalog>356B_Catalog_of_Spare_Parts.pdf</catalog>
+		<group>3/4</group>
+		<item>12</item>
+		<description>hexagon nut</description>
+		<partno>900.076.013.01</partno>
+		<qty>2</qty>
+		<DIN>DIN 934-63</DIN>
+		<size>M8</size>
+		<finish>phr</finish>
+		<note>-</note>
+	</part>
+	<part>
+		<diagram_name>Front axle</diagram_name>
+		<ref>36B</ref>
+		<catalog>356B_Catalog_of_Spare_Parts.pdf</catalog>
+		<group>3/4</group>
+		<item>36</item>
+		<description>hexagon bolt</description>
+		<partno>900.074.060.01</partno>
+		<qty>4</qty>
+		<DIN>DIN 931-8G</DIN>
+		<size>M10x45</size>
+		<finish>phr E</finish>
+		<note>-</note>
+	</part>
+	<part>
+		<diagram_name>Front axle</diagram_name>
+		<ref>37B</ref>
+		<catalog>356B_Catalog_of_Spare_Parts.pdf</catalog>
+		<group>3/4</group>
+		<item>37</item>
+		<description>spring washer</description>
+		<partno>na.</partno>
+		<qty>4</qty>
+		<DIN>DIN 127</DIN>
+		<size>B10</size>
+		<finish>phr E</finish>
+		<note>-</note>
+	</part>
+	<part>
+		<diagram_name>Front axle</diagram_name>
+		<ref>38B</ref>
+		<catalog>356B_Catalog_of_Spare_Parts.pdf</catalog>
+		<group>3/4</group>
+		<item>38</item>
+		<description>hexagon nut</description>
+		<partno>na.</partno>
+		<qty>4</qty>
+		<DIN>DIN 934-6S</DIN>
+		<size>M10x45</size>
+		<finish>phr E</finish>
+		<note>-</note>
+	</part>
+	<part>
+		<diagram_name>Front axle</diagram_name>
+		<ref>52B</ref>
+		<catalog>356B_Catalog_of_Spare_Parts.pdf</catalog>
+		<group>3/4</group>
+		<item>52</item>
+		<description>Bolt for shock absorber top</description>
+		<partno>644.41.511</partno>
+		<qty>2</qty>
+		<DIN>blank</DIN>
+		<size>blank</size>
+		<finish>metal</finish>
+		<note>-</note>
+	</part>
+	<part>
+		<diagram_name>Front axle</diagram_name>
+		<ref>54B</ref>
+		<catalog>356B_Catalog_of_Spare_Parts.pdf</catalog>
+		<group>3/4</group>
+		<item>54</item>
+		<description>washer for shock absorber bottom</description>
+		<partno>900.025.008.02</partno>
+		<qty>2</qty>
+		<DIN>DIN 125-St</DIN>
+		<size>10.5</size>
+		<finish>verz.</finish>
+		<note>-</note>
+	</part>
+	<part>
+		<diagram_name>Front axle</diagram_name>
+		<ref>55B</ref>
+		<catalog>356B_Catalog_of_Spare_Parts.pdf</catalog>
+		<group>3/4</group>
+		<item>55</item>
+		<description>castellated nut for shock absorber bottom</description>
+		<partno>900.079.003.02</partno>
+		<qty>2</qty>
+		<DIN>DIN 937-63</DIN>
+		<size>M10</size>
+		<finish>verz.</finish>
+		<note>-</note>
+	</part>
+	<part>
+		<diagram_name>Front axle</diagram_name>
+		<ref>59B</ref>
+		<catalog>356B_Catalog_of_Spare_Parts.pdf</catalog>
+		<group>3/4</group>
+		<item>59</item>
+		<description>hexagon bolt</description>
+		<partno>na.</partno>
+		<qty>2</qty>
+		<DIN>DIN 931-8G</DIN>
+		<size>M6x35</size>
+		<finish>phr E</finish>
+		<note>-</note>
+	</part>
+	<part>
+		<diagram_name>Front axle</diagram_name>
+		<ref>60B</ref>
+		<catalog>356B_Catalog_of_Spare_Parts.pdf</catalog>
+		<group>3/4</group>
+		<item>60</item>
+		<description>spring washer</description>
+		<partno>na.</partno>
+		<qty>2</qty>
+		<DIN>DIN 127</DIN>
+		<size>B6</size>
+		<finish>phr E</finish>
+		<note>-</note>
+	</part>
+	<part>
+		<diagram_name>Front axle</diagram_name>
+		<ref>61B</ref>
+		<catalog>356B_Catalog_of_Spare_Parts.pdf</catalog>
+		<group>3/4</group>
+		<item>61</item>
+		<description>hexagon nut</description>
+		<partno>na.</partno>
+		<qty>2</qty>
+		<DIN>DIN 934-6S</DIN>
+		<size>M6</size>
+		<finish>phr E</finish>
+		<note>-</note>
+	</part>
+	<part>
+		<diagram_name>Front axle</diagram_name>
+		<ref>63B</ref>
+		<catalog>356B_Catalog_of_Spare_Parts.pdf</catalog>
+		<group>3/4</group>
+		<item>63</item>
+		<description>hexagon bolt</description>
+		<partno>na.</partno>
+		<qty>2</qty>
+		<DIN>DIN 931-8G</DIN>
+		<size>M10x55</size>
+		<finish>phr E</finish>
+		<note>-</note>
+	</part>
+	<part>
+		<diagram_name>Front axle</diagram_name>
+		<ref>64B</ref>
+		<catalog>356B_Catalog_of_Spare_Parts.pdf</catalog>
+		<group>3/4</group>
+		<item>64</item>
+		<description>spring washer</description>
+		<partno>na.</partno>
+		<qty>2</qty>
+		<DIN>DIN 127</DIN>
+		<size>B10</size>
+		<finish>phr E</finish>
+		<note>-</note>
+	</part>
+	<part>
+		<diagram_name>Front axle</diagram_name>
+		<ref>65B</ref>
+		<catalog>356B_Catalog_of_Spare_Parts.pdf</catalog>
+		<group>3/4</group>
+		<item>65</item>
+		<description>hexagon nut</description>
+		<partno>na.</partno>
+		<qty>2</qty>
+		<DIN>DIN 934-6S</DIN>
+		<size>M10</size>
+		<finish>phr E</finish>
+		<note>-</note>
+	</part>
+	<part>
+		<diagram_name>Front axle</diagram_name>
+		<ref>67B</ref>
+		<catalog>356B_Catalog_of_Spare_Parts.pdf</catalog>
+		<group>3/4</group>
+		<item>67</item>
+		<description>hexagon bolt</description>
+		<partno>na.</partno>
+		<qty>4</qty>
+		<DIN>DIN 933-8G</DIN>
+		<size>M8x20</size>
+		<finish>phr E</finish>
+		<note>-</note>
+	</part>
+	<part>
+		<diagram_name>Front axle</diagram_name>
+		<ref>68B</ref>
+		<catalog>356B_Catalog_of_Spare_Parts.pdf</catalog>
+		<group>3/4</group>
+		<item>68</item>
+		<description>spring washer</description>
+		<partno>na.</partno>
+		<qty>4</qty>
+		<DIN>DIN 127</DIN>
+		<size>B8</size>
+		<finish>phr E</finish>
+		<note>-</note>
+	</part>
+</partslist>

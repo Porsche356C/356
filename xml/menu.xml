@@ -1,0 +1,29 @@
+<parts-catalog>
+    <!-- <group id="1" title="Engine">
+        <section id="5" title="Air cooling and shrouding" data-dir="catalog/group1/section5/">
+            <diagram>1-5c.png</diagram>
+        </section>
+    </group> -->
+    <group id="3" title="Chassis">
+        <section id="4c" title="Front axle" data-dir="catalog/group3/section4/">
+            <diagram>group3-4.png</diagram>
+            <areaFile>area.html</areaFile>
+            <partslist>group3-4.xml</partslist>
+        </section>
+        <section id="5c" title="Steering" data-dir="catalog/group3/section5/">
+            <diagram>group3-5.png</diagram>
+            <areaFile>area.html</areaFile>
+            <partslist>group3-5.xml</partslist>
+        </section>
+        <section id="7c" title="Rear axle" data-dir="catalog/group3/section7/">
+            <diagram>group3-7.png</diagram>
+            <areaFile>area.html</areaFile>
+            <partslist>group3-7.xml</partslist>
+        </section>
+        <section id="8c" title="Disc brake" data-dir="catalog/group3/section8/">
+            <diagram>group3-8.png</diagram>
+            <areaFile>area.html</areaFile>
+            <partslist>group3-8.xml</partslist>
+        </section>
+    </group>
+</parts-catalog>
