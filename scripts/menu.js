@@ -1,4 +1,4 @@
-const xmlMenu="/XML/menu.xml";
+const xmlMenu="xml/menu.xml";
 const xslMenu="xml/menu.xsl"
 
 // function defined in main.js
