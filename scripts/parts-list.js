@@ -15,7 +15,6 @@ function generateTable(xml, xsl) {
     var fragment = xsltProcessor.transformToFragment(xml, document);
   
     // Insert the HTML into the page
-    console.log("div to add table: ", document.getElementById("table-partslist"));
     document.getElementById("table-partslist").replaceChildren();
     document.getElementById("table-partslist").appendChild(fragment);
 }
@@ -24,14 +23,10 @@ function generateTable(xml, xsl) {
 function loadPartsList(menuItem) {
   const dir = menuItem.getAttribute("data-dir");
   const xmlPartsList = dir + menuItem.getAttribute("data-partslist");
-  console.log("partslist: ", xmlPartsList);
   // Load the XML and XSL files, then generate the table
   loadXML(xmlPartsList, function(xml) {
-    console.log("xml partslist loaded: ", xml );
     loadXML(xslPartsList, function(xsl) {
-        console.log("xsl partslist loaded: ", xsl);
         generateTable(xml, xsl);
-        console.log("table loaded");
     });
   });
 }  

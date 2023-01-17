@@ -1,25 +1,14 @@
 
-// function toolTip(overlay) {
-//     const ref = overlay.getAttribute("data-ref");
-//     tip = document.getElementById(ref).cells[1].innerHTML;
-//     // tip = part.cells[1].innerHTML;
-//     const txt = '<div class="overlay-text">' + tip + '</div>';
-//     overlay.innerHTML = txt
-// }
 
-function clearTip(overlay) {
+function clearTip() {
     popup = document.getElementById('popup-table');
     popup.remove();
 }
 
 
-function toolTip(overlay, event) {
-    console.log("overlay: ", overlay);
-    var e = getComputedStyle(overlay, null);
+function toolTip(overlay) {
     const x = overlay.offsetLeft;
     const y = overlay.offsetTop;
-
-    console.log("x,y: ", x, y, xScaler, yScaler);
 
     const ref = overlay.getAttribute("data-ref");
     const table = document.getElementById("partslist");
@@ -44,28 +33,3 @@ function toolTip(overlay, event) {
 
 }
   
-
-
-
-// function displayPopup(overlay) {
-//     console.log("overlay: ", overlay);
-
-//     const ref = overlay.getAttribute("data-ref");
-//     const table = document.getElementById("partslist");
-//     const selectedPart = table.rows.namedItem(ref);
-//     const index = selectedPart.rowIndex;
-//     const note = table.rows[index + 1];
-
-//     // Create new row in popup table.
-//     const popupTable = document.getElementById("popup-table");
-//     popupTable.rows[1].innerHTML = selectedPart.innerHTML;
-//     popupTable.rows[2].innerHTML = note.innerHTML;
-
-//     const popup = document.getElementById("popup-wrapper");
-//     popup.style.display = "inline-block";
-// }
-  
-// function closePopup() {
-//     const popup = document.getElementById("popup-wrapper");
-//     popup.style.display = "none";
-// }

@@ -64,13 +64,10 @@ function scaleOverlays() {
 
 
 
-
 // load the diagram, clicakble overlays, and partslist
 async function loadAreaMap(menuItem) {
     return new Promise((resolve, reject) => {
-        console.log("menu item pressed: ", menuItem);
-        // closePopup();
-        const diagramWrapper = document.querySelector("#diagram-wrapper");
+       const diagramWrapper = document.querySelector("#diagram-wrapper");
         const overlayWrapper = document.querySelector("#overlay-wrapper");
         const diagramH1 = document.getElementById("diagram-name");
 
@@ -106,8 +103,8 @@ async function loadAreaMap(menuItem) {
                     div.setAttribute('data-ref', area.getAttribute('href'));
                     div.setAttribute('style', `left:${coords[0]}px; top:${coords[1]}px;`);
                     // div.setAttribute('onclick', 'displayPopup(this)');
-                    div.setAttribute('onmouseover', 'toolTip(this, event)');
-                    div.setAttribute('onmouseout', 'clearTip(this)');
+                    div.setAttribute('onmouseover', 'toolTip(this)');
+                    div.setAttribute('onmouseout', 'clearTip()');
                     overlayWrapper.appendChild(div);
                 });
 
@@ -130,13 +127,11 @@ async function loadAreaMap(menuItem) {
 window.addEventListener('resize', function (event) {
     console.log('resize event');
     scaleOverlays();
-    // closePopup();
 });
 
 // scale overlays on first page load
 window.addEventListener('load', function (event) {
     console.log('load event');
     scaleOverlays();
-    // closePopup();
 });
 
