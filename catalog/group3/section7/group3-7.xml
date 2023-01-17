@@ -1,34 +1,6 @@
 <partslist>
 	<part>
 		<diagram_name>Rear axle</diagram_name>
-		<ref>33B</ref>
-		<catalog>356B_Catalog_of_Spare_Parts.pdf</catalog>
-		<group>3/7</group>
-		<item>33</item>
-		<description>Spring arm cover bolt</description>
-		<partno>900.074.057.02</partno>
-		<qty>8</qty>
-		<DIN>DIN 931-86</DIN>
-		<size>M10x30</size>
-		<finish>gal Zn 9</finish>
-		<note>-</note>
-	</part>
-	<part>
-		<diagram_name>Rear axle</diagram_name>
-		<ref>34B</ref>
-		<catalog>356B_Catalog_of_Spare_Parts.pdf</catalog>
-		<group>3/7</group>
-		<item>34</item>
-		<description>Spring arm cover flat washer</description>
-		<partno>900.025.008.02 </partno>
-		<qty>8</qty>
-		<DIN>DIN 125-St </DIN>
-		<size>M10</size>
-		<finish>gal Zn 9</finish>
-		<note>-</note>
-	</part>
-	<part>
-		<diagram_name>Rear axle</diagram_name>
 		<ref>14</ref>
 		<catalog>Parts_Manual_356C_T6C_Supplement.pdf</catalog>
 		<group>3/7C</group>
@@ -39,20 +11,6 @@
 		<DIN>DIN 960-8G</DIN>
 		<size>M12x1.5x75</size>
 		<finish>gal Zn 9</finish>
-		<note>-</note>
-	</part>
-	<part>
-		<diagram_name>Rear axle</diagram_name>
-		<ref>37B</ref>
-		<catalog>356B_Catalog_of_Spare_Parts.pdf</catalog>
-		<group>3/7</group>
-		<item>37</item>
-		<description>lower shock mount flat washer</description>
-		<partno>900.025.009.01</partno>
-		<qty>2</qty>
-		<DIN>DIN 125-St </DIN>
-		<size>M12</size>
-		<finish>phr E</finish>
 		<note>-</note>
 	</part>
 	<part>
@@ -82,5 +40,201 @@
 		<size>M12x1.5</size>
 		<finish>gal Zn 9</finish>
 		<note>-</note>
+	</part>
+	<part>
+		<diagram_name>Rear axle</diagram_name>
+		<ref>33B</ref>
+		<catalog>356B_Catalog_of_Spare_Parts.pdf</catalog>
+		<group>3/7</group>
+		<item>33</item>
+		<description>Spring arm cover bolt</description>
+		<partno>900.074.057.02</partno>
+		<qty>8</qty>
+		<DIN>DIN 931-86</DIN>
+		<size>M10x30</size>
+		<finish>gal Zn 9</finish>
+		<note>-</note>
+	</part>
+	<part>
+		<diagram_name>Rear axle</diagram_name>
+		<ref>34B</ref>
+		<catalog>356B_Catalog_of_Spare_Parts.pdf</catalog>
+		<group>3/7</group>
+		<item>34</item>
+		<description>Spring arm cover flat washer</description>
+		<partno>900.025.008.02 </partno>
+		<qty>8</qty>
+		<DIN>DIN 125-St </DIN>
+		<size>M10</size>
+		<finish>gal Zn 9</finish>
+		<note>-</note>
+	</part>
+	<part>
+		<diagram_name>Rear axle</diagram_name>
+		<ref>37B</ref>
+		<catalog>356B_Catalog_of_Spare_Parts.pdf</catalog>
+		<group>3/7</group>
+		<item>37</item>
+		<description>lower shock mount flat washer</description>
+		<partno>900.025.009.01</partno>
+		<qty>2</qty>
+		<DIN>DIN 125-St </DIN>
+		<size>M12</size>
+		<finish>phr E</finish>
+		<note>-</note>
+	</part>
+	<part>
+		<diagram_name>Rear axle</diagram_name>
+		<ref>18B</ref>
+		<catalog>356B_Catalog_of_Spare_Parts.pdf</catalog>
+		<group>3/7</group>
+		<item>18</item>
+		<description>spring washer</description>
+		<partno>na</partno>
+		<qty>8</qty>
+		<DIN>DIN 137</DIN>
+		<size>B10</size>
+		<finish>phr E</finish>
+		<note>no part number provided</note>
+	</part>
+	<part>
+		<diagram_name>Rear axle</diagram_name>
+		<ref>19B</ref>
+		<catalog>356B_Catalog_of_Spare_Parts.pdf</catalog>
+		<group>3/7</group>
+		<item>19</item>
+		<description>Fastening screw for bearing cover</description>
+		<partno>P 901.401</partno>
+		<qty>8</qty>
+		<DIN>-</DIN>
+		<size>-</size>
+		<finish>-</finish>
+		<note>no size or finish specified</note>
+	</part>
+	<part>
+		<diagram_name>Rear axle</diagram_name>
+		<ref>21B</ref>
+		<catalog>356B_Catalog_of_Spare_Parts.pdf</catalog>
+		<group>3/7</group>
+		<item>21</item>
+		<description>heaxagon bolt</description>
+		<partno>na</partno>
+		<qty>2</qty>
+		<DIN>DIN 960-8G</DIN>
+		<size>M12x1.5x22</size>
+		<finish>phr E</finish>
+		<note>no part number provided</note>
+	</part>
+	<part>
+		<diagram_name>Rear axle</diagram_name>
+		<ref>22B</ref>
+		<catalog>356B_Catalog_of_Spare_Parts.pdf</catalog>
+		<group>3/7</group>
+		<item>22</item>
+		<description>washer for bearing housing</description>
+		<partno>356.34.153</partno>
+		<qty>2</qty>
+		<DIN>-</DIN>
+		<size>-</size>
+		<finish>-</finish>
+		<note>no size or finish specified</note>
+	</part>
+	<part>
+		<diagram_name>Rear axle</diagram_name>
+		<ref>23B</ref>
+		<catalog>356B_Catalog_of_Spare_Parts.pdf</catalog>
+		<group>3/7</group>
+		<item>23</item>
+		<description>spring washer</description>
+		<partno>na</partno>
+		<qty>8</qty>
+		<DIN>DIN 127</DIN>
+		<size>B12</size>
+		<finish>phr E</finish>
+		<note>no part number provided</note>
+	</part>
+	<part>
+		<diagram_name>Rear axle</diagram_name>
+		<ref>24B</ref>
+		<catalog>356B_Catalog_of_Spare_Parts.pdf</catalog>
+		<group>3/7</group>
+		<item>24</item>
+		<description>hexagin nut</description>
+		<partno>na</partno>
+		<qty>8</qty>
+		<DIN>DIN 934-6s </DIN>
+		<size>M12x1.5</size>
+		<finish>phr E</finish>
+		<note>no part number provided</note>
+	</part>
+	<part>
+		<diagram_name>Rear axle</diagram_name>
+		<ref>28B</ref>
+		<catalog>356B_Catalog_of_Spare_Parts.pdf</catalog>
+		<group>3/7</group>
+		<item>28</item>
+		<description>spring washer</description>
+		<partno>900.028.014.01</partno>
+		<qty>4</qty>
+		<DIN>DIN 137</DIN>
+		<size>B12</size>
+		<finish>phr E</finish>
+		<note>check whether this is a wave washer</note>
+	</part>
+	<part>
+		<diagram_name>Rear axle</diagram_name>
+		<ref>29B</ref>
+		<catalog>356B_Catalog_of_Spare_Parts.pdf</catalog>
+		<group>3/7</group>
+		<item>29</item>
+		<description>heaxagon bolt</description>
+		<partno>900.082.006.01</partno>
+		<qty>6</qty>
+		<DIN>DIN 960-8G</DIN>
+		<size>M12x1.5x30</size>
+		<finish>phr E</finish>
+		<note>-</note>
+	</part>
+	<part>
+		<diagram_name>Rear axle</diagram_name>
+		<ref>44B</ref>
+		<catalog>356B_Catalog_of_Spare_Parts.pdf</catalog>
+		<group>3/7</group>
+		<item>44</item>
+		<description>hexagin nut self locking</description>
+		<partno>900.084.013.02</partno>
+		<qty>2</qty>
+		<DIN>DIN 985-6S</DIN>
+		<size>M10x1</size>
+		<finish>gal Zn 9</finish>
+		<note>-</note>
+	</part>
+	<part>
+		<diagram_name>Rear axle</diagram_name>
+		<ref>43B</ref>
+		<catalog>356B_Catalog_of_Spare_Parts.pdf</catalog>
+		<group>3/7</group>
+		<item>43</item>
+		<description>washer for bearing housing</description>
+		<partno>n644.333.564.10</partno>
+		<qty>2</qty>
+		<DIN>-</DIN>
+		<size>-</size>
+		<finish>-</finish>
+		<note>no size or finish specified</note>
+	</part>
+	<part>
+		<diagram_name>Rear axle</diagram_name>
+		<ref>12</ref>
+		<catalog>Parts_Manual_356C_T6C_Supplement.pdf</catalog>
+		<group>3/7C</group>
+		<item>12</item>
+		<description>bolt for ribber buffer</description>
+		<partno>695.333.513.00</partno>
+		<qty>2</qty>
+		<DIN>-</DIN>
+		<size>-</size>
+		<finish>-</finish>
+		<note>no size or finish specified</note>
 	</part>
 </partslist>

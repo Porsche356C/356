@@ -2,6 +2,7 @@
 
 <head>
     <link rel="stylesheet" type="text/css" href="style.css">
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
 </head>
 
 <body>
@@ -46,48 +47,54 @@
                         <div class="overlay-wrapper" id="overlay-wrapper">
                             <!-- overlay divs with hover and clickable function calls are inserted here by js -->
                         </div>
-
-                        <!-- table used for single part popup -->
-                        <div class="popup-wrapper" id="popup-wrapper">
-                            <a class="close-popup icon-close" onclick="closePopup()"></a>
-                            <div class="tbl_popup">
-                                <table id="popup-table">
-                                    <tr>
-                                        <th>Ref</th>
-                                        <th>Description</th>
-                                        <th>Part Number</th>
-                                        <th>Quantity</th>
-                                        <th>Catalog</th>
-                                        <th>DIN</th>
-                                        <th>Size</th>
-                                        <th>Finish</th>
-                                    </tr>
-                                    <tr>
-                                        <th>placeholder</th>
-                                        <th>placeholder</th>
-                                        <th>placeholder</th>
-                                        <th>placeholder</th>
-                                        <th>placeholder</th>
-                                        <th>placeholder</th>
-                                        <th>placeholder</th>
-                                        <th>placeholder</th>
-                                    </tr>
-                                </table>
-                            </div>
-                        </div>
-
                     </div>
                 </div>
             </div>
-
 
             <!-- container for partslist table to be inserted by JS -->
             <div class="partslist-wrapper">
                 <div class="table-partslist" id="table-partslist"></div>
             </div>
 
+
         </div>
     </div>
+
+    <!-- table used for single part popup -->
+    <template>
+  
+        <div class="popup-wrapper" id="popup-wrapper">
+            <!-- <a class="close-popup icon-close" onclick="closePopup()"></a>
+            <div class="tbl_popup"> -->
+                <table id="popup-table">
+                    <tr>
+                        <th>Ref</th>
+                        <th>Description</th>
+                        <th>Part Number</th>
+                        <th>Quantity</th>
+                        <th>Catalog</th>
+                        <th>DIN</th>
+                        <th>Size</th>
+                        <th>Finish</th>
+                    </tr>
+                    <tr>
+                        <td>Ref</td>
+                        <td>Description</td>
+                        <td>Part Number</td>
+                        <td class="centre">Quantity</td>
+                        <td>Catalog</td>
+                        <td>DIN</td>
+                        <td>Size</td>
+                        <td>Finish</td>
+                    </tr>
+                    <tr>
+                        <td id="note" colspan="8" style="background-color:#BBC7CD"></td>
+                    </tr>
+                </table>
+            <!-- </div> -->
+        </div> 
+    </template>
+
 
 </body>
 

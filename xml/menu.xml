@@ -4,7 +4,7 @@
             <diagram>1-5c.png</diagram>
         </section>
     </group> -->
-    <group id="3" title="Chassis">
+    <group id="3" title="Chassis" >
         <section id="4c" title="Front axle" data-dir="catalog/group3/section4/">
             <diagram>group3-4.png</diagram>
             <areaFile>area.html</areaFile>

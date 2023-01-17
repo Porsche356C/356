@@ -4,6 +4,8 @@
 // and defined in style.css div.overlay
 // ****
 const originalHighlightWidth = 70;
+var xScaler = 1;
+var yScaler = 1;
 
 
 
@@ -41,8 +43,8 @@ function scaleOverlays() {
     const realHeight = image.naturalHeight;
 
     // get image scaler based on original size
-    var xScaler = imageWidth / realWidth;
-    var yScaler = imageHeight / realHeight;
+    xScaler = imageWidth / realWidth;
+    yScaler = imageHeight / realHeight;
     console.log("xScaler: ", xScaler, " yScaler: ", yScaler);
 
     // scale overlays
@@ -67,7 +69,7 @@ function scaleOverlays() {
 async function loadAreaMap(menuItem) {
     return new Promise((resolve, reject) => {
         console.log("menu item pressed: ", menuItem);
-        closePopup();
+        // closePopup();
         const diagramWrapper = document.querySelector("#diagram-wrapper");
         const overlayWrapper = document.querySelector("#overlay-wrapper");
         const diagramH1 = document.getElementById("diagram-name");
@@ -103,8 +105,8 @@ async function loadAreaMap(menuItem) {
                     // div.setAttribute('title', area.getAttribute('title'));
                     div.setAttribute('data-ref', area.getAttribute('href'));
                     div.setAttribute('style', `left:${coords[0]}px; top:${coords[1]}px;`);
-                    div.setAttribute('onclick', 'displayPopup(this)');
-                    div.setAttribute('onmouseover', 'toolTip(this)');
+                    // div.setAttribute('onclick', 'displayPopup(this)');
+                    div.setAttribute('onmouseover', 'toolTip(this, event)');
                     div.setAttribute('onmouseout', 'clearTip(this)');
                     overlayWrapper.appendChild(div);
                 });
@@ -128,13 +130,13 @@ async function loadAreaMap(menuItem) {
 window.addEventListener('resize', function (event) {
     console.log('resize event');
     scaleOverlays();
-    closePopup();
+    // closePopup();
 });
 
 // scale overlays on first page load
 window.addEventListener('load', function (event) {
     console.log('load event');
     scaleOverlays();
-    closePopup();
+    // closePopup();
 });
 
