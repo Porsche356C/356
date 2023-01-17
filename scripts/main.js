@@ -45,10 +45,8 @@ function scaleOverlays() {
     // get image scaler based on original size
     xScaler = imageWidth / realWidth;
     yScaler = imageHeight / realHeight;
-    console.log("xScaler: ", xScaler, " yScaler: ", yScaler);
-
+    
     // scale overlays
-    console.log("overlays length: ", overlays.length);
     for (let i = 0; i < overlays.length; i++) {
         // resize overlay to match scaled image
         w = originalHighlightWidth * xScaler;
@@ -83,7 +81,6 @@ async function loadAreaMap(menuItem) {
         // parse area.htm file and generate image clickable overlays
         const req = new XMLHttpRequest();
         req.open("GET", overlay, true);
-        console.log("0verlay open");
         req.onreadystatechange = function () {
             if (this.readyState === 4 && this.status === 200) {
                 const parser = new DOMParser();
@@ -109,7 +106,6 @@ async function loadAreaMap(menuItem) {
                 });
 
                 img.onload = () => {
-                    console.log('image loaded');
                     scaleOverlays();
                     resolve();
                 }
@@ -125,13 +121,11 @@ async function loadAreaMap(menuItem) {
 
 // scale overlays each time the windows is resized
 window.addEventListener('resize', function (event) {
-    console.log('resize event');
     scaleOverlays();
 });
 
 // scale overlays on first page load
 window.addEventListener('load', function (event) {
-    console.log('load event');
     scaleOverlays();
 });
 
