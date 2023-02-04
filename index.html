@@ -2,13 +2,14 @@
 
 <head>
     <link rel="stylesheet" type="text/css" href="style.css">
-    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+    <script src="saxon-js/SaxonJS2.js"></script>
 </head>
 
 <body>
-    <script src="scripts/main.js" ></script>
+    
+    <script src="scripts/main.js" defer></script>
     <script src="scripts/menu.js" defer></script>
-    <script src="scripts/parts-list.js"></script>
+    <script src="scripts/parts-list.js" defer></script>
     <script src="scripts/part-popup.js" defer></script>
 
     <header class="page-header" id="header">
@@ -62,30 +63,30 @@
 
     <!-- table used for single part popup -->
     <template>
-  
         <div class="popup-wrapper" id="popup-wrapper">
             <!-- <a class="close-popup icon-close" onclick="closePopup()"></a>
             <div class="tbl_popup"> -->
+                <!-- <img id="popup-img" src="" /> -->
                 <table id="popup-table">
                     <tr>
                         <th>Ref</th>
                         <th>Description</th>
                         <th>Part Number</th>
                         <th>Quantity</th>
-                        <th>Catalog</th>
                         <th>DIN</th>
                         <th>Size</th>
                         <th>Finish</th>
+                        <th>Image</th>
                     </tr>
                     <tr>
                         <td>Ref</td>
                         <td>Description</td>
                         <td>Part Number</td>
                         <td class="centre">Quantity</td>
-                        <td>Catalog</td>
                         <td>DIN</td>
                         <td>Size</td>
                         <td>Finish</td>
+                        <td>Image</td>
                     </tr>
                     <tr>
                         <td id="note" colspan="8" style="background-color:#BBC7CD"></td>

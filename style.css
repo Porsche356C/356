@@ -172,6 +172,7 @@ div.overlay {
 
 div.overlay:hover {
     background-color: rgba(255,0,0,0.5);
+    cursor: pointer;
 }
 
 /* tool tip displayed on hover */
@@ -207,7 +208,7 @@ div#table-partslist {
 
 table {
     font-weight: 400;
-    font-size: 17px;
+    font-size: 14px;
     /* line-height: 17px; */
     color: #334255;
     border: 1px solid black;
@@ -227,6 +228,10 @@ td.centre {
 tr.selected {
     background-color: yellow;
     }
+
+table#partslist img {
+    height: 80px;
+}
 
 /* ================================================================
 POPUP PART TABLE
@@ -267,19 +272,30 @@ a.close-popup:hover {
     color: #004E95 !important;
     text-decoration: none !important;
     } */
+#popup-img {
+    display: inline-block;
+    position: absolute;
+    left: 0px;
+    width: 30px;
+}
 
 #popup-table {
     position: absolute;
-    left: 0px;
+    /* left: 0px; */
+    /* position: relative; */
     width: 90;
     max-height: 400px;
     overflow-y: auto;
     box-sizing: border-box;
     clear: left;
     background-color:white;
-    font-size: 15px;
+    font-size: 11px;
+    z-index: 5;
     }
 
+    table#popup-table img {
+        max-height: 50px;
+    }
 
 /* ================================================================
 Menu

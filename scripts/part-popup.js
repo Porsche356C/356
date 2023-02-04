@@ -10,25 +10,35 @@ function toolTip(overlay) {
     const x = overlay.offsetLeft;
     const y = overlay.offsetTop;
 
+    console.log("x: ", x);
+    console.log("y: ", y);
+
+
     const ref = overlay.getAttribute("data-ref");
     const table = document.getElementById("partslist");
     const selectedPart = table.rows.namedItem(ref);
     const index = selectedPart.rowIndex;
-    const note = table.rows[index + 1];
+    const note = table.rows[index + 1].cloneNode(true);
+    const part = selectedPart.cloneNode(true);
 
+    part.deleteCell(4);
+    console.log('selected part: ', part);
+    // const partImage = selectedPart.cells.namedItem("image").innerHTML;
+    // console.log('image: ', partImage);
 
     // Create new row in popup table.
-    const template = document.getElementsByTagName("template")[0];
-    const clone = template.cloneNode(true);
-    partTable = clone.content.querySelector("table")
+    const template = document.getElementsByTagName("template")[0].cloneNode(true);
+    partTable = template.content.querySelector("table")
 
-    partTable.rows[1].innerHTML = selectedPart.innerHTML;
+    partTable.rows[1].innerHTML = part.innerHTML;
     partTable.rows[2].innerHTML = note.innerHTML;
 
 
     // overlay.append(clone);
     diagramWrapper = document.getElementById('diagram-wrapper');
-    partTable.style.top = y * yScaler + 80 + 'px';
+    const newY = y * yScaler + 80;
+    console.log("new Y: ", newY);
+    partTable.style.top = newY + 'px';
     diagramWrapper.append(partTable);
 
 }

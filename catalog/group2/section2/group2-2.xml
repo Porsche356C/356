@@ -1,0 +1,32 @@
+<partslist>
+	<part>
+		<diagram_name>transmission</diagram_name>
+		<ref>23B</ref>
+		<catalog>356B_Catalog_of_Spare_Parts.pdf</catalog>
+		<group>2/2</group>
+		<item>23</item>
+		<description>hexagin nut</description>
+		<partno>-</partno>
+		<qty>16</qty>
+		<DIN>DIN 934-6S</DIN>
+		<DIN_spec>DIN934</DIN_spec>
+		<size>M8</size>
+		<finish>verz</finish>
+		<note>no part number provided</note>
+	</part>
+	<part>
+		<diagram_name>transmission</diagram_name>
+		<ref>24B</ref>
+		<catalog>356B_Catalog_of_Spare_Parts.pdf</catalog>
+		<group>2/2</group>
+		<item>24</item>
+		<description>spring wave washer</description>
+		<partno>-</partno>
+		<qty>16</qty>
+		<DIN>DIN 137</DIN>
+		<DIN_spec>DIN137b</DIN_spec>
+		<size>B8</size>
+		<finish>verz</finish>
+		<note>no part number provided</note>
+	</part>
+</partslist>

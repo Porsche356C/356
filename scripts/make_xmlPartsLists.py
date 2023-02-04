@@ -30,9 +30,10 @@ for sheet in wb:
 				with tag("partno"): text(row[6])
 				with tag("qty"): text(row[7])
 				with tag("DIN"): text(row[8])
-				with tag("size"): text(row[9])
-				with tag("finish"): text(row[10])
-				with tag("note"): text(row[11])
+				with tag("DIN_spec"): text(row[9])
+				with tag("size"): text(row[10])
+				with tag("finish"): text(row[11])
+				with tag("note"): text(row[12])
 
 	result = indent(
 		doc.getvalue(),

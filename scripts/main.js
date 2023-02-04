@@ -99,9 +99,10 @@ async function loadAreaMap(menuItem) {
                     // div.setAttribute('title', area.getAttribute('title'));
                     div.setAttribute('data-ref', area.getAttribute('href'));
                     div.setAttribute('style', `left:${coords[0]}px; top:${coords[1]}px;`);
-                    // div.setAttribute('onclick', 'displayPopup(this)');
+                    div.setAttribute('onclick', "location.href = '#"+area.getAttribute('href')+"'");
                     div.setAttribute('onmouseover', 'toolTip(this)');
                     div.setAttribute('onmouseout', 'clearTip()');
+                    // div.setAttribute('href', '#{$ref}');
                     overlayWrapper.appendChild(div);
                 });
 

@@ -1,4 +1,7 @@
 .vscode/
 .venv/
 356parts/
-.DS_STORE
+.DS_Store
+node_modules/
+package-loc.json
+package.json

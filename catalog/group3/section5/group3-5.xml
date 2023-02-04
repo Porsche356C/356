@@ -9,6 +9,7 @@
 		<partno>900.079.004.01</partno>
 		<qty>4</qty>
 		<DIN>DIN 937-6S</DIN>
+		<DIN_spec>DIN937</DIN_spec>
 		<size>M10x1</size>
 		<finish>phr E</finish>
 		<note>-</note>
@@ -23,6 +24,7 @@
 		<partno>900.082.001.00</partno>
 		<qty>4</qty>
 		<DIN>DIN 960-8G</DIN>
+		<DIN_spec>DIN960</DIN_spec>
 		<size>M8x1x30</size>
 		<finish>none</finish>
 		<note>-</note>
@@ -33,10 +35,11 @@
 		<catalog>356B_Catalog_of_Spare_Parts.pdf</catalog>
 		<group>3/5</group>
 		<item>15</item>
-		<description>spring wasger</description>
+		<description>spring lock washer</description>
 		<partno>900.027.015.01</partno>
 		<qty>4</qty>
 		<DIN>DIN 127</DIN>
+		<DIN_spec>DIN127b</DIN_spec>
 		<size>B8</size>
 		<finish>phr E</finish>
 		<note>-</note>
@@ -51,6 +54,7 @@
 		<partno>900.076.014.00</partno>
 		<qty>4</qty>
 		<DIN>DIN 934-6S</DIN>
+		<DIN_spec>DIN934</DIN_spec>
 		<size>M8x1</size>
 		<finish>none</finish>
 		<note>-</note>
@@ -65,6 +69,7 @@
 		<partno>900.082.010.02</partno>
 		<qty>1</qty>
 		<DIN>DIN 960-8G</DIN>
+		<DIN_spec>DIN960</DIN_spec>
 		<size>M10x1x52 S</size>
 		<finish>verz.</finish>
 		<note>-</note>
@@ -79,6 +84,7 @@
 		<partno>900.074.038.02</partno>
 		<qty>1</qty>
 		<DIN>DIN 931-8G</DIN>
+		<DIN_spec>DIN931</DIN_spec>
 		<size>M8x40</size>
 		<finish>gal Zn 12</finish>
 		<note>-</note>
@@ -93,6 +99,7 @@
 		<partno>900.076.013.02</partno>
 		<qty>1</qty>
 		<DIN>DIN 934-6S</DIN>
+		<DIN_spec>DIN934</DIN_spec>
 		<size>M8</size>
 		<finish>gal Zn 9</finish>
 		<note>-</note>
@@ -107,6 +114,7 @@
 		<partno>900.067.015.01</partno>
 		<qty>2</qty>
 		<DIN>DIN 912-8G</DIN>
+		<DIN_spec>DIN912</DIN_spec>
 		<size>M6x45</size>
 		<finish>phr E</finish>
 		<note>for Roadster from chassis coupe:11931 cab:153591 roadster: 88040</note>
@@ -121,6 +129,7 @@
 		<partno>900.067.013.02</partno>
 		<qty>2</qty>
 		<DIN>DIN 912-8G</DIN>
+		<DIN_spec>DIN912</DIN_spec>
 		<size>M6x35</size>
 		<finish>gal Zn 9</finish>
 		<note>from chassis coupe:11931 cab:153591 roadster: 88040</note>
@@ -135,9 +144,10 @@
 		<partno>900.151.003.00</partno>
 		<qty>2</qty>
 		<DIN>DIN 9021</DIN>
+		<DIN_spec>DIN9021</DIN_spec>
 		<size>A6</size>
 		<finish>none</finish>
-		<note>UPTO chassis coupe:111931 cab:153591 roadster:88040</note>
+		<note>upto chassis coupe:111931 cab:153591 roadster:88040</note>
 	</part>
 	<part>
 		<diagram_name>Steering</diagram_name>
@@ -145,10 +155,11 @@
 		<catalog>356B_Catalog_of_Spare_Parts.pdf</catalog>
 		<group>3/5</group>
 		<item>35</item>
-		<description>spring washer</description>
+		<description>spring lock washer</description>
 		<partno>900.027.004.01</partno>
 		<qty>2</qty>
 		<DIN>DIN 127</DIN>
+		<DIN_spec>DIN127a</DIN_spec>
 		<size>A6</size>
 		<finish>phr</finish>
 		<note>upto chassis coupe:111931 cab:153591 roadster:88040</note>
@@ -163,6 +174,7 @@
 		<partno>900.142.003.01</partno>
 		<qty>2</qty>
 		<DIN>DIN 7980</DIN>
+		<DIN_spec>DIN7960</DIN_spec>
 		<size>A6</size>
 		<finish>phr E</finish>
 		<note>from chassis coupe:11931 cab:153591 roadster: 88040</note>
@@ -177,9 +189,10 @@
 		<partno>900.076.010.01</partno>
 		<qty>2</qty>
 		<DIN>DIN 934-6S</DIN>
+		<DIN_spec>DIN934</DIN_spec>
 		<size>M6</size>
 		<finish>phr E</finish>
-		<note>UPTO chassis coupe:11931 cab:153591 roadster: 88040</note>
+		<note>upto chassis coupe:11931 cab:153591 roadster: 88040</note>
 	</part>
 	<part>
 		<diagram_name>Steering</diagram_name>
@@ -191,6 +204,7 @@
 		<partno>900.078.007.01</partno>
 		<qty>1</qty>
 		<DIN>DIN 936-6S</DIN>
+		<DIN_spec>DIN936</DIN_spec>
 		<size>M18x1.5</size>
 		<finish>phr E</finish>
 		<note>-</note>
@@ -201,10 +215,11 @@
 		<catalog>356B_Catalog_of_Spare_Parts.pdf</catalog>
 		<group>3/5</group>
 		<item>47</item>
-		<description>spring washer</description>
+		<description>spring wave washer</description>
 		<partno>900.028.015.01</partno>
 		<qty>1</qty>
 		<DIN>DIN 137</DIN>
+		<DIN_spec>DIN137b</DIN_spec>
 		<size>B18</size>
 		<finish>phr E</finish>
 		<note>-</note>

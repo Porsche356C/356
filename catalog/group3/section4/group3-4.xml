@@ -5,10 +5,11 @@
 		<catalog>356B_Catalog_of_Spare_Parts.pdf</catalog>
 		<group>3/4</group>
 		<item>11</item>
-		<description>spring washer</description>
+		<description>spring lock washer</description>
 		<partno>900.027.015.01</partno>
 		<qty>2</qty>
 		<DIN>DIN 127</DIN>
+		<DIN_spec>DIN127b</DIN_spec>
 		<size>B8</size>
 		<finish>bost.</finish>
 		<note>-</note>
@@ -22,7 +23,8 @@
 		<description>hexagon nut</description>
 		<partno>900.076.013.01</partno>
 		<qty>2</qty>
-		<DIN>DIN 934-63</DIN>
+		<DIN>DIN 934-6S</DIN>
+		<DIN_spec>DIN934</DIN_spec>
 		<size>M8</size>
 		<finish>phr</finish>
 		<note>-</note>
@@ -37,6 +39,7 @@
 		<partno>900.074.060.01</partno>
 		<qty>4</qty>
 		<DIN>DIN 931-8G</DIN>
+		<DIN_spec>DIN931</DIN_spec>
 		<size>M10x45</size>
 		<finish>phr E</finish>
 		<note>-</note>
@@ -47,10 +50,11 @@
 		<catalog>356B_Catalog_of_Spare_Parts.pdf</catalog>
 		<group>3/4</group>
 		<item>37</item>
-		<description>spring washer</description>
+		<description>spring lock washer</description>
 		<partno>na.</partno>
 		<qty>4</qty>
 		<DIN>DIN 127</DIN>
+		<DIN_spec>DIN127b</DIN_spec>
 		<size>B10</size>
 		<finish>phr E</finish>
 		<note>-</note>
@@ -65,6 +69,7 @@
 		<partno>na.</partno>
 		<qty>4</qty>
 		<DIN>DIN 934-6S</DIN>
+		<DIN_spec>DIN934</DIN_spec>
 		<size>M10x45</size>
 		<finish>phr E</finish>
 		<note>-</note>
@@ -78,8 +83,9 @@
 		<description>Bolt for shock absorber top</description>
 		<partno>644.41.511</partno>
 		<qty>2</qty>
-		<DIN>blank</DIN>
-		<size>blank</size>
+		<DIN>-</DIN>
+		<DIN_spec>-</DIN_spec>
+		<size>-</size>
 		<finish>metal</finish>
 		<note>-</note>
 	</part>
@@ -93,6 +99,7 @@
 		<partno>900.025.008.02</partno>
 		<qty>2</qty>
 		<DIN>DIN 125-St</DIN>
+		<DIN_spec>DIN125a</DIN_spec>
 		<size>10.5</size>
 		<finish>verz.</finish>
 		<note>-</note>
@@ -106,7 +113,8 @@
 		<description>castellated nut for shock absorber bottom</description>
 		<partno>900.079.003.02</partno>
 		<qty>2</qty>
-		<DIN>DIN 937-63</DIN>
+		<DIN>DIN 937-6S</DIN>
+		<DIN_spec>DIN937</DIN_spec>
 		<size>M10</size>
 		<finish>verz.</finish>
 		<note>-</note>
@@ -121,6 +129,7 @@
 		<partno>na.</partno>
 		<qty>2</qty>
 		<DIN>DIN 931-8G</DIN>
+		<DIN_spec>DIN931</DIN_spec>
 		<size>M6x35</size>
 		<finish>phr E</finish>
 		<note>-</note>
@@ -131,10 +140,11 @@
 		<catalog>356B_Catalog_of_Spare_Parts.pdf</catalog>
 		<group>3/4</group>
 		<item>60</item>
-		<description>spring washer</description>
+		<description>spring lock washer</description>
 		<partno>na.</partno>
 		<qty>2</qty>
 		<DIN>DIN 127</DIN>
+		<DIN_spec>DIN127b</DIN_spec>
 		<size>B6</size>
 		<finish>phr E</finish>
 		<note>-</note>
@@ -149,6 +159,7 @@
 		<partno>na.</partno>
 		<qty>2</qty>
 		<DIN>DIN 934-6S</DIN>
+		<DIN_spec>DIN934</DIN_spec>
 		<size>M6</size>
 		<finish>phr E</finish>
 		<note>-</note>
@@ -163,6 +174,7 @@
 		<partno>na.</partno>
 		<qty>2</qty>
 		<DIN>DIN 931-8G</DIN>
+		<DIN_spec>DIN931</DIN_spec>
 		<size>M10x55</size>
 		<finish>phr E</finish>
 		<note>-</note>
@@ -173,10 +185,11 @@
 		<catalog>356B_Catalog_of_Spare_Parts.pdf</catalog>
 		<group>3/4</group>
 		<item>64</item>
-		<description>spring washer</description>
+		<description>spring lock washer</description>
 		<partno>na.</partno>
 		<qty>2</qty>
 		<DIN>DIN 127</DIN>
+		<DIN_spec>DIN127b</DIN_spec>
 		<size>B10</size>
 		<finish>phr E</finish>
 		<note>-</note>
@@ -191,6 +204,7 @@
 		<partno>na.</partno>
 		<qty>2</qty>
 		<DIN>DIN 934-6S</DIN>
+		<DIN_spec>DIN934</DIN_spec>
 		<size>M10</size>
 		<finish>phr E</finish>
 		<note>-</note>
@@ -205,6 +219,7 @@
 		<partno>na.</partno>
 		<qty>4</qty>
 		<DIN>DIN 933-8G</DIN>
+		<DIN_spec>DIN933</DIN_spec>
 		<size>M8x20</size>
 		<finish>phr E</finish>
 		<note>-</note>
@@ -215,10 +230,11 @@
 		<catalog>356B_Catalog_of_Spare_Parts.pdf</catalog>
 		<group>3/4</group>
 		<item>68</item>
-		<description>spring washer</description>
+		<description>spring lock washer</description>
 		<partno>na.</partno>
 		<qty>4</qty>
 		<DIN>DIN 127</DIN>
+		<DIN_spec>DIN127b</DIN_spec>
 		<size>B8</size>
 		<finish>phr E</finish>
 		<note>-</note>

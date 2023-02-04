@@ -5,10 +5,11 @@
 		<catalog>Parts_Manual_356C_T6C_Supplement.pdf</catalog>
 		<group>3/7C</group>
 		<item>14</item>
-		<description>lower shock mount bolt</description>
+		<description>shock lower mount bolt</description>
 		<partno>900.002.011.02 </partno>
 		<qty>2</qty>
 		<DIN>DIN 960-8G</DIN>
+		<DIN_spec>DIN960</DIN_spec>
 		<size>M12x1.5x75</size>
 		<finish>gal Zn 9</finish>
 		<note>-</note>
@@ -19,10 +20,11 @@
 		<catalog>Parts_Manual_356C_T6C_Supplement.pdf</catalog>
 		<group>3/7C</group>
 		<item>15</item>
-		<description>lower shock mount spring washer</description>
+		<description>shock lower mount spring lock washer</description>
 		<partno>900.027.017.01</partno>
 		<qty>2</qty>
 		<DIN>DIN 127</DIN>
+		<DIN_spec>DIN127b</DIN_spec>
 		<size>M12 B</size>
 		<finish>Bostik</finish>
 		<note>-</note>
@@ -33,10 +35,11 @@
 		<catalog>Parts_Manual_356C_T6C_Supplement.pdf</catalog>
 		<group>3/7C</group>
 		<item>16</item>
-		<description>lower shock mount nut</description>
+		<description>shock lower mount nut</description>
 		<partno>900.076.016.02 </partno>
 		<qty>2</qty>
 		<DIN>DIN 934-6s </DIN>
+		<DIN_spec>DIN934</DIN_spec>
 		<size>M12x1.5</size>
 		<finish>gal Zn 9</finish>
 		<note>-</note>
@@ -50,10 +53,11 @@
 		<description>Spring arm cover bolt</description>
 		<partno>900.074.057.02</partno>
 		<qty>8</qty>
-		<DIN>DIN 931-86</DIN>
-		<size>M10x30</size>
+		<DIN>DIN 931-8G</DIN>
+		<DIN_spec>DIN931</DIN_spec>
+		<size>M10x1.5x30</size>
 		<finish>gal Zn 9</finish>
-		<note>-</note>
+		<note>head marking  DERA 8G (CC).  NSF  8G (xx).</note>
 	</part>
 	<part>
 		<diagram_name>Rear axle</diagram_name>
@@ -65,6 +69,7 @@
 		<partno>900.025.008.02 </partno>
 		<qty>8</qty>
 		<DIN>DIN 125-St </DIN>
+		<DIN_spec>DIN125a</DIN_spec>
 		<size>M10</size>
 		<finish>gal Zn 9</finish>
 		<note>-</note>
@@ -75,10 +80,11 @@
 		<catalog>356B_Catalog_of_Spare_Parts.pdf</catalog>
 		<group>3/7</group>
 		<item>37</item>
-		<description>lower shock mount flat washer</description>
+		<description>shock lower mount flat washer</description>
 		<partno>900.025.009.01</partno>
 		<qty>2</qty>
 		<DIN>DIN 125-St </DIN>
+		<DIN_spec>DIN125a</DIN_spec>
 		<size>M12</size>
 		<finish>phr E</finish>
 		<note>-</note>
@@ -89,10 +95,11 @@
 		<catalog>356B_Catalog_of_Spare_Parts.pdf</catalog>
 		<group>3/7</group>
 		<item>18</item>
-		<description>spring washer</description>
+		<description>spring wave washer</description>
 		<partno>na</partno>
 		<qty>8</qty>
 		<DIN>DIN 137</DIN>
+		<DIN_spec>DIN137b</DIN_spec>
 		<size>B10</size>
 		<finish>phr E</finish>
 		<note>no part number provided</note>
@@ -107,6 +114,7 @@
 		<partno>P 901.401</partno>
 		<qty>8</qty>
 		<DIN>-</DIN>
+		<DIN_spec>-</DIN_spec>
 		<size>-</size>
 		<finish>-</finish>
 		<note>no size or finish specified</note>
@@ -121,6 +129,7 @@
 		<partno>na</partno>
 		<qty>2</qty>
 		<DIN>DIN 960-8G</DIN>
+		<DIN_spec>DIN960</DIN_spec>
 		<size>M12x1.5x22</size>
 		<finish>phr E</finish>
 		<note>no part number provided</note>
@@ -135,6 +144,7 @@
 		<partno>356.34.153</partno>
 		<qty>2</qty>
 		<DIN>-</DIN>
+		<DIN_spec>-</DIN_spec>
 		<size>-</size>
 		<finish>-</finish>
 		<note>no size or finish specified</note>
@@ -145,10 +155,11 @@
 		<catalog>356B_Catalog_of_Spare_Parts.pdf</catalog>
 		<group>3/7</group>
 		<item>23</item>
-		<description>spring washer</description>
+		<description>spring lock washer</description>
 		<partno>na</partno>
 		<qty>8</qty>
 		<DIN>DIN 127</DIN>
+		<DIN_spec>DIN127b</DIN_spec>
 		<size>B12</size>
 		<finish>phr E</finish>
 		<note>no part number provided</note>
@@ -163,6 +174,7 @@
 		<partno>na</partno>
 		<qty>8</qty>
 		<DIN>DIN 934-6s </DIN>
+		<DIN_spec>DIN934</DIN_spec>
 		<size>M12x1.5</size>
 		<finish>phr E</finish>
 		<note>no part number provided</note>
@@ -173,13 +185,14 @@
 		<catalog>356B_Catalog_of_Spare_Parts.pdf</catalog>
 		<group>3/7</group>
 		<item>28</item>
-		<description>spring washer</description>
+		<description>spring wave washer for rubber bump stop</description>
 		<partno>900.028.014.01</partno>
 		<qty>4</qty>
 		<DIN>DIN 137</DIN>
+		<DIN_spec>DIN137b</DIN_spec>
 		<size>B12</size>
 		<finish>phr E</finish>
-		<note>check whether this is a wave washer</note>
+		<note>-</note>
 	</part>
 	<part>
 		<diagram_name>Rear axle</diagram_name>
@@ -191,9 +204,10 @@
 		<partno>900.082.006.01</partno>
 		<qty>6</qty>
 		<DIN>DIN 960-8G</DIN>
+		<DIN_spec>DIN960</DIN_spec>
 		<size>M12x1.5x30</size>
 		<finish>phr E</finish>
-		<note>-</note>
+		<note>head marking KARO 8G (CC &amp; xx)</note>
 	</part>
 	<part>
 		<diagram_name>Rear axle</diagram_name>
@@ -201,10 +215,11 @@
 		<catalog>356B_Catalog_of_Spare_Parts.pdf</catalog>
 		<group>3/7</group>
 		<item>44</item>
-		<description>hexagin nut self locking</description>
+		<description>shock upper mount hexagon nut self locking</description>
 		<partno>900.084.013.02</partno>
 		<qty>2</qty>
 		<DIN>DIN 985-6S</DIN>
+		<DIN_spec>DIN985</DIN_spec>
 		<size>M10x1</size>
 		<finish>gal Zn 9</finish>
 		<note>-</note>
@@ -215,10 +230,11 @@
 		<catalog>356B_Catalog_of_Spare_Parts.pdf</catalog>
 		<group>3/7</group>
 		<item>43</item>
-		<description>washer for bearing housing</description>
-		<partno>n644.333.564.10</partno>
+		<description>shock upper mount washer</description>
+		<partno>644.333.564.10</partno>
 		<qty>2</qty>
 		<DIN>-</DIN>
+		<DIN_spec>-</DIN_spec>
 		<size>-</size>
 		<finish>-</finish>
 		<note>no size or finish specified</note>
@@ -229,10 +245,11 @@
 		<catalog>Parts_Manual_356C_T6C_Supplement.pdf</catalog>
 		<group>3/7C</group>
 		<item>12</item>
-		<description>bolt for ribber buffer</description>
+		<description>bolt for rubber bump stop</description>
 		<partno>695.333.513.00</partno>
 		<qty>2</qty>
 		<DIN>-</DIN>
+		<DIN_spec>-</DIN_spec>
 		<size>-</size>
 		<finish>-</finish>
 		<note>no size or finish specified</note>
