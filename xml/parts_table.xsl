@@ -6,8 +6,7 @@
               
 
    <xsl:template match="/">
-   <xsl:result-document href="#table-partslist" method="ixsl:replace-content">   
-    
+   <xsl:result-document href="#table-partslist" method="ixsl:replace-content"> 
  
     <table class="parts_list" id="partslist">
       <tr>

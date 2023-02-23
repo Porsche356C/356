@@ -1,0 +1,14 @@
+<parts-catalog>
+	<group id="3" title="Chassis">
+		<section data-dir="catalog/group3/section4/" id="4" title="Front axle">
+			<diagram>vw_parts.png</diagram>
+			<areaFile>vw_overlay.html</areaFile>
+			<partslist>vw_parts.xml</partslist>
+		</section>
+		<section data-dir="catalog/group3/section7/" id="7" title="Rear axle">
+			<diagram>vw_parts.png</diagram>
+			<areaFile>vw_overlay.html</areaFile>
+			<partslist>vw_parts.xml</partslist>
+		</section>
+	</group>
+</parts-catalog>

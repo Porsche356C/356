@@ -1,0 +1,137 @@
+<partslist>
+	<part>
+		<diagram_name>Brake Lines</diagram_name>
+		<ref>2B</ref>
+		<catalog>Parts_Manual_356B_T6B_Supplement.pdf</catalog>
+		<group>3/12A</group>
+		<item>2</item>
+		<description>hexagon screw</description>
+		<partno>900.075.029.02</partno>
+		<qty>2</qty>
+		<DIN>DIN 933-8G</DIN>
+		<DIN_spec>DIN933</DIN_spec>
+		<size>M8x25</size>
+		<finish>gal Zn 9</finish>
+		<note>-</note>
+	</part>
+	<part>
+		<diagram_name>Brake Lines</diagram_name>
+		<ref>3B</ref>
+		<catalog>Parts_Manual_356B_T6B_Supplement.pdf</catalog>
+		<group>3/12A</group>
+		<item>3</item>
+		<description>spring washer</description>
+		<partno>900.027.015.01</partno>
+		<qty>2</qty>
+		<DIN>DIN 127</DIN>
+		<DIN_spec>DIN127b</DIN_spec>
+		<size>B8</size>
+		<finish>Bostik</finish>
+		<note>-</note>
+	</part>
+	<part>
+		<diagram_name>Brake Lines</diagram_name>
+		<ref>26B</ref>
+		<catalog>Parts_Manual_356B_T6B_Supplement.pdf</catalog>
+		<group>3/12A</group>
+		<item>26</item>
+		<description>bracket for brake hose</description>
+		<partno>356.42.121</partno>
+		<qty>4</qty>
+		<DIN>-</DIN>
+		<DIN_spec>-</DIN_spec>
+		<size>-</size>
+		<finish>-</finish>
+		<note>not defined.  Suspect bare metal.  I Zinc plated</note>
+	</part>
+	<part>
+		<diagram_name>Brake Lines</diagram_name>
+		<ref>27B</ref>
+		<catalog>Parts_Manual_356B_T6B_Supplement.pdf</catalog>
+		<group>3/12A</group>
+		<item>27</item>
+		<description>clip for brake hose, rear</description>
+		<partno>644.351.651.00</partno>
+		<qty>2</qty>
+		<DIN>-</DIN>
+		<DIN_spec>-</DIN_spec>
+		<size>-</size>
+		<finish>-</finish>
+		<note>not defined.  Chassis 129137 had Yellow Chromate, same as calipers</note>
+	</part>
+	<part>
+		<diagram_name>Brake Lines</diagram_name>
+		<ref>28B</ref>
+		<catalog>Parts_Manual_356B_T6B_Supplement.pdf</catalog>
+		<group>3/12A</group>
+		<item>28</item>
+		<description>hexagon screw</description>
+		<partno>900.075.028.01</partno>
+		<qty>2</qty>
+		<DIN>DIN 933-8G</DIN>
+		<DIN_spec>DIN933</DIN_spec>
+		<size>M8x22</size>
+		<finish>phr E</finish>
+		<note>-</note>
+	</part>
+	<part>
+		<diagram_name>Brake Lines</diagram_name>
+		<ref>29B</ref>
+		<catalog>Parts_Manual_356B_T6B_Supplement.pdf</catalog>
+		<group>3/12A</group>
+		<item>29</item>
+		<description>spring ring</description>
+		<partno>900.027.015.01</partno>
+		<qty>2</qty>
+		<DIN>DIN 127</DIN>
+		<DIN_spec>DIN127b</DIN_spec>
+		<size>B8</size>
+		<finish>phr E</finish>
+		<note>-</note>
+	</part>
+	<part>
+		<diagram_name>Brake Lines</diagram_name>
+		<ref>30B</ref>
+		<catalog>Parts_Manual_356B_T6B_Supplement.pdf</catalog>
+		<group>3/12A</group>
+		<item>30</item>
+		<description>hexagon nut</description>
+		<partno>900.076.013.01</partno>
+		<qty>2</qty>
+		<DIN>DIN 934-6S</DIN>
+		<DIN_spec>DIN934</DIN_spec>
+		<size>M8</size>
+		<finish>phr E</finish>
+		<note>-</note>
+	</part>
+	<part>
+		<diagram_name>Brake Lines</diagram_name>
+		<ref>22B</ref>
+		<catalog>Parts_Manual_356B_T6B_Supplement.pdf</catalog>
+		<group>3/12A</group>
+		<item>22</item>
+		<description>hexagon screw</description>
+		<partno>900.074.014.01</partno>
+		<qty>1</qty>
+		<DIN>DIN 931-8G</DIN>
+		<DIN_spec>DIN931</DIN_spec>
+		<size>M6x15</size>
+		<finish>phr E</finish>
+		<note>-</note>
+	</part>
+	<part>
+		<diagram_name>Brake Lines</diagram_name>
+		<ref>23B</ref>
+		<catalog>Parts_Manual_356B_T6B_Supplement.pdf</catalog>
+		<group>3/12A</group>
+		<item>23</item>
+		<description>spring washer</description>
+		<partno>900.028.009.01</partno>
+		<qty>1</qty>
+		<DIN>DIN 137</DIN>
+		<DIN_spec>DIN137b</DIN_spec>
+		<size>B6</size>
+		<finish>phr E</finish>
+		<note>-</note>
+	</part>
+</partslist>

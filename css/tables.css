@@ -1,0 +1,109 @@
+
+/* ================================================================
+TABLES
+=================================================================== */
+/* 
+parts list table &
+Part popup table
+*/
+
+div.partslist-wrapper {
+    margin: 10,0;
+}
+
+div#table-partslist {
+    position: relative;
+    padding-top: 10px;
+    /* left: 10%; */
+}
+
+table {
+    font-weight: 400;
+    font-size: 14px;
+    /* line-height: 17px; */
+    color: #334255;
+    border: 1px solid black;
+    }
+    
+th {
+    background-color: lightgray;
+    }
+
+td {
+    padding: 5px;
+    }
+td.centre {
+    text-align: center;
+}
+
+tr.selected {
+    background-color: yellow;
+    }
+
+table#partslist img {
+    height: 80px;
+}
+
+/* ================================================================
+POPUP PART TABLE
+=================================================================== */
+/* div.popup-wrapper {
+    position: absolute;
+    left: 10%;
+    top: 50%;
+    padding: 20px;
+    margin-left: 40px;
+
+    z-index: 2000;
+    border: 1px solid #CCCCCC;
+    box-shadow: 1px 2px 5px #d2d3d3;
+    background-color: #FFF;
+} */
+
+/* a.close-popup {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 12px;
+    height: 12px;
+    padding-right: 2px;
+    color: #838d97;
+    font-family: 'Lato','Helvetica Neue',Arial,sans-serif;
+    text-decoration: none;
+    z-index: 5;
+    background-color: white;
+    font-size: 15px;
+    }
+
+.icon-close:before {
+    content: "\2715";
+    }
+  
+a.close-popup:hover {
+    color: #004E95 !important;
+    text-decoration: none !important;
+    } */
+#popup-img {
+    display: inline-block;
+    position: absolute;
+    left: 0px;
+    width: 30px;
+}
+
+#popup-table {
+    position: absolute;
+    /* left: 0px; */
+    /* position: relative; */
+    width: 90;
+    max-height: 400px;
+    overflow-y: auto;
+    box-sizing: border-box;
+    clear: left;
+    background-color:white;
+    font-size: 11px;
+    z-index: 5;
+    }
+
+    table#popup-table img {
+        max-height: 50px;
+    }

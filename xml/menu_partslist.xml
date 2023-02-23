@@ -1,0 +1,43 @@
+<parts-catalog>
+	<group id="2" title="Transmission">
+		<section data-dir="catalog/group2/section2/" id="2" title="housing">
+			<diagram>group2-2.png</diagram>
+			<areaFile>overlay.html</areaFile>
+			<partslist>group2-2.xml</partslist>
+		</section>
+	</group>
+	<group id="3" title="Chassis">
+		<section data-dir="catalog/group3/section4/" id="4" title="Front axle">
+			<diagram>group3-4.png</diagram>
+			<areaFile>overlay.html</areaFile>
+			<partslist>group3-4.xml</partslist>
+		</section>
+		<section data-dir="catalog/group3/section5/" id="5" title="Steering">
+			<diagram>group3-5.png</diagram>
+			<areaFile>overlay.html</areaFile>
+			<partslist>group3-5.xml</partslist>
+		</section>
+		<section data-dir="catalog/group3/section7/" id="7" title="Rear axle">
+			<diagram>group3-7.png</diagram>
+			<areaFile>overlay.html</areaFile>
+			<partslist>group3-7.xml</partslist>
+		</section>
+		<section data-dir="catalog/group3/section8/" id="8" title="Brakes">
+			<diagram>group3-8.png</diagram>
+			<areaFile>overlay.html</areaFile>
+			<partslist>group3-8.xml</partslist>
+		</section>
+		<section data-dir="catalog/group3/section9/" id="9" title="Brake Lines">
+			<diagram>group3-9.png</diagram>
+			<areaFile>overlay.html</areaFile>
+			<partslist>group3-9.xml</partslist>
+		</section>
+	</group>
+	<group id="5" title="Body">
+		<section data-dir="catalog/group5/section1/" id="1" title="Frame">
+			<diagram>group5-1.png</diagram>
+			<areaFile>overlay.html</areaFile>
+			<partslist>group5-1.xml</partslist>
+		</section>
+	</group>
+</parts-catalog>

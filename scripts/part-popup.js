@@ -27,7 +27,7 @@ function toolTip(overlay) {
     // console.log('image: ', partImage);
 
     // Create new row in popup table.
-    const template = document.getElementsByTagName("template")[0].cloneNode(true);
+    const template = document.getElementById("popup-template").cloneNode(true);
     partTable = template.content.querySelector("table")
 
     partTable.rows[1].innerHTML = part.innerHTML;

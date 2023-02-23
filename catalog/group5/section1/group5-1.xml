@@ -1,0 +1,32 @@
+<partslist>
+	<part>
+		<diagram_name>Frame</diagram_name>
+		<ref>11B</ref>
+		<catalog>Parts_Manual_356B_T6B_Supplement.pdf</catalog>
+		<group>5/1A</group>
+		<item>11</item>
+		<description>cheese-head screw glavanised</description>
+		<partno>900.014.027.02</partno>
+		<qty>4</qty>
+		<DIN>DIN 84-5S</DIN>
+		<DIN_spec>DIN84</DIN_spec>
+		<size>M6x20</size>
+		<finish>verz</finish>
+		<note>-</note>
+	</part>
+	<part>
+		<diagram_name>Frame</diagram_name>
+		<ref>12B</ref>
+		<catalog>Parts_Manual_356B_T6B_Supplement.pdf</catalog>
+		<group>5/1A</group>
+		<item>12</item>
+		<description>washer zinc-plated</description>
+		<partno>900.025.004.02</partno>
+		<qty>4</qty>
+		<DIN>DIN 125-St</DIN>
+		<DIN_spec>DIN125b</DIN_spec>
+		<size>6.4</size>
+		<finish>verz</finish>
+		<note>assumed b style as not specified</note>
+	</part>
+</partslist>

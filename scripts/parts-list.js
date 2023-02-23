@@ -4,9 +4,6 @@ var xslPartsList = "xml/parts_table.sef.json";
 
 function generateTable(xmlPartsList, xslPartsList, xmlDins) {
   
-  console.log("xml: ", xmlPartsList);
-  console.log("xsl: ", xslPartsList);
-
   var parameters = [{name: "din-file", value: xmlDins}];
   SaxonJS.setLogLevel(10);
 

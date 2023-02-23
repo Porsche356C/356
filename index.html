@@ -1,7 +1,12 @@
 <!DOCTYPE html>
 
 <head>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>356C Parts</title>
+    <!-- <link rel="icon" type="image/x-icon" href="/images/favicon.ico"> -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/layout.css">
+    <link rel="stylesheet" type="text/css" href="css/menu.css">
+    <link rel="stylesheet" type="text/css" href="css/tables.css">
     <script src="saxon-js/SaxonJS2.js"></script>
 </head>
 
@@ -15,7 +20,7 @@
     <header class="page-header" id="header">
         <div class="header-wrapper">
             <img src="/images/logo.png" id="header-img">
-            <h1 id="header-text">356C Nut & Bolt Finishes</h1>
+            <h1 id="header-text">356C Nuts Bolts & VW parts</h1>
         </div>
     </header>
 
@@ -25,78 +30,112 @@
                 <a href="#" title="Go to Home Page">356C</a>
                 <span> &gt; </span>
             </li>
-            <li class="category8325">
-                <a href="#" title="">Chassis</a>
-                <span> &gt; </span>
-            </li>
-            <li class="product">
-                <strong>Rear Suspension</strong>
-            </li>
         </ul>
     </div> -->
 
     <div class="container">
-        <div class="column menu" id=""menu">
-        </div>
+        <nav class="sidebar" id="main-menu">
+            <ul class="menu top-level">
+                <li name="home">
+                    <a class="home-btn menu-item active" href="#">Home</a>
+                </li>
+                <li name="bolts">
+                    <a class="bolt-btn" href="#">Bolt Finishes</a>
+                    <span class="fas fa-caret-down first"></span>
+                    <ul class="bolt-show">
+                        <nav class="menu sub-menu" id="bolt-menu"></nav>
+                    </ul>
+                </li>
+                <li name="vw-parts">
+                    <a class="vw-btn" href="#">VW Parts</a>
+                    <span class="fas fa-caret-down first"></span>
+                    <ul class="vw-show">
+                        <nav class="menu sub-menu" id="vw-menu"></nav>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
 
-        <div class="column main">
-            <div class="col-main">
-                <h1 class="diagram-name" id="diagram-name">Parts Catalog</h1>
-                <div class="diagram-container" id="diagram-container">
-                    <div class="diagram-wrapper" id="diagram-wrapper">
-                        <img id="image-map" src="/catalog/cover.png"/>
-                        <div class="overlay-wrapper" id="overlay-wrapper">
-                            <!-- overlay divs with hover and clickable function calls are inserted here by js -->
-                        </div>
+        <!-- Home page -->
+        <div class="page home active">
+            <div class="content">
+                <h1 class="diagram-name">Home</h1>
+                <div class="diagram-container">
+                    <div class="diagram-wrapper">
+                        <p>This website was created to assist with the maintenance of a 1964 356C 1600 coupe.
+                        There are two parts to be this site.
+                        </p>
+                        <ol>
+                            <li>
+                                Nut and Bolt finishes - this information is 98% derived from the factory parts manuals
+                                with the adition of common accepted information, for example the finish of brake calipers.
+                            </li>
+                            <li>
+                                VW replacement parts - Porsche parts are not readily avaiolable in Australia, so I purchase
+                                VW parts where they are direct replacement.  I may also include the VW parts list from 
+                                Harry Pellows Secrets of the Inner Circle.
+                            </li>
+                        </ol>
+                        <p>The website is opensource, meaning anyone can congtribute to it.  The source files can be found
+                        at https://porsche356bc.github.io
+                        </p>
+                        <p>If you have any queries you can send an email to chris at 356@miplace.com.
+                        </p>
                     </div>
                 </div>
             </div>
+        </div> 
 
-            <!-- container for partslist table to be inserted by JS -->
-            <div class="partslist-wrapper">
-                <div class="table-partslist" id="table-partslist"></div>
+        <!-- Parts list & VW parts pages have same format -->
+        <div class="page diagram">
+            <div class="content">
+                <h1 class="diagram-name" id="diagram-name">insert heading here</h1>
+                <div class="diagram-container" id="diagram-container">
+                    <div class="diagram-wrapper" id="diagram-wrapper">
+                        <img id="image-map" src="add image here"/>
+                        <div class="overlay-wrapper" id="overlay-wrapper">
+                            <!-- clickable overlays inserted here by js -->
+                        </div>
+                    </div>
+                </div>
+
+                <!-- container for partslist table to be inserted by JS -->
+                <div class="partslist-wrapper">
+                    <div class="table-partslist" id="table-partslist"></div>
+                </div>
             </div>
-
-
-        </div>
+        </div> 
     </div>
 
-    <!-- table used for single part popup -->
-    <template>
+    <template id="popup-template">
         <div class="popup-wrapper" id="popup-wrapper">
-            <!-- <a class="close-popup icon-close" onclick="closePopup()"></a>
-            <div class="tbl_popup"> -->
-                <!-- <img id="popup-img" src="" /> -->
-                <table id="popup-table">
-                    <tr>
-                        <th>Ref</th>
-                        <th>Description</th>
-                        <th>Part Number</th>
-                        <th>Quantity</th>
-                        <th>DIN</th>
-                        <th>Size</th>
-                        <th>Finish</th>
-                        <th>Image</th>
-                    </tr>
-                    <tr>
-                        <td>Ref</td>
-                        <td>Description</td>
-                        <td>Part Number</td>
-                        <td class="centre">Quantity</td>
-                        <td>DIN</td>
-                        <td>Size</td>
-                        <td>Finish</td>
-                        <td>Image</td>
-                    </tr>
-                    <tr>
-                        <td id="note" colspan="8" style="background-color:#BBC7CD"></td>
-                    </tr>
-                </table>
-            <!-- </div> -->
+            <table id="popup-table">
+                <tr>
+                    <th>Ref</th>
+                    <th>Description</th>
+                    <th>Part Number</th>
+                    <th>Quantity</th>
+                    <th>DIN</th>
+                    <th>Size</th>
+                    <th>Finish</th>
+                    <th>Image</th>
+                </tr>
+                <tr>
+                    <td>Ref</td>
+                    <td>Description</td>
+                    <td>Part Number</td>
+                    <td class="centre">Quantity</td>
+                    <td>DIN</td>
+                    <td>Size</td>
+                    <td>Finish</td>
+                    <td>Image</td>
+                </tr>
+                <tr>
+                    <td id="note" colspan="8" style="background-color:#BBC7CD"></td>
+                </tr>
+            </table>
         </div> 
     </template>
-
-
+    
 </body>
-
 </html>

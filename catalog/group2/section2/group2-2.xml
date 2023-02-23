@@ -1,6 +1,6 @@
 <partslist>
 	<part>
-		<diagram_name>transmission</diagram_name>
+		<diagram_name>housing</diagram_name>
 		<ref>23B</ref>
 		<catalog>356B_Catalog_of_Spare_Parts.pdf</catalog>
 		<group>2/2</group>
@@ -15,7 +15,7 @@
 		<note>no part number provided</note>
 	</part>
 	<part>
-		<diagram_name>transmission</diagram_name>
+		<diagram_name>housing</diagram_name>
 		<ref>24B</ref>
 		<catalog>356B_Catalog_of_Spare_Parts.pdf</catalog>
 		<group>2/2</group>

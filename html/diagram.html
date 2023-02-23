@@ -1,0 +1,55 @@
+<!-- templates for dynamic content -->
+
+<!-- dynamic portion on main content container -->
+<!-- used for the parts diagrams, overlays and partslists -->
+<template id="diagram-template">
+    <div class="content" id="dynamic">
+        <h1 class="diagram-name" id="diagram-name">insert heading here</h1>
+        <div class="diagram-container" id="diagram-container">
+            <div class="diagram-wrapper" id="diagram-wrapper">
+                <img id="image-map" src="add image here"/>
+                <div class="overlay-wrapper" id="overlay-wrapper">
+                    <!-- clickable overlays inserted here by js -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- container for partslist table to be inserted by JS -->
+    <div class="partslist-wrapper">
+        <div class="table-partslist" id="table-partslist"></div>
+    </div>
+</template>
+
+
+
+<!-- table used for single part popup -->
+<!-- full partslist table is defined by 'xsl' file -->
+<template id="popup-template">
+    <div class="popup-wrapper" id="popup-wrapper">
+        <table id="popup-table">
+            <tr>
+                <th>Ref</th>
+                <th>Description</th>
+                <th>Part Number</th>
+                <th>Quantity</th>
+                <th>DIN</th>
+                <th>Size</th>
+                <th>Finish</th>
+                <th>Image</th>
+            </tr>
+            <tr>
+                <td>Ref</td>
+                <td>Description</td>
+                <td>Part Number</td>
+                <td class="centre">Quantity</td>
+                <td>DIN</td>
+                <td>Size</td>
+                <td>Finish</td>
+                <td>Image</td>
+            </tr>
+            <tr>
+                <td id="note" colspan="8" style="background-color:#BBC7CD"></td>
+            </tr>
+        </table>
+    </div> 
+</template>

@@ -1,0 +1,106 @@
+/* ================================================================
+PAGE LAYOUT
+ ================================================================ */
+
+
+/* ==== 
+PAGE
+ ==== */
+ div.container {
+    display: flex;
+    padding-left: 20px;
+    padding-right: 20px;
+ }
+
+
+/* ==== 
+COLUMNS
+ ==== */
+
+.sidebar {
+    margin-left: 0px;
+    padding: 50px 2px;
+    width: 250px;
+    height: 100%;
+}
+
+.content {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+/* ==== 
+CONTENT 
+ ==== */
+
+div.col-main {
+    margin: 0px;
+    padding: 0px;
+}
+
+div.diagram-container {
+    margin: 0 auto;
+    padding: 0 30px;
+    border: 2px solid lightgray;
+    /* background-color: lightgray; */
+}
+
+.diagram-container h1 {
+    display: block;
+    margin-bottom: 10px;
+}
+
+div.diagram-wrapper {
+    position: relative;
+    /* position: absolute; */
+    margin: 0 0 90px;
+    padding: 0px;
+    max-width: 100%;
+    }
+
+img#image-map {
+    position: relative;
+    left: 0%;
+    top: 0px;
+    width: 100%;
+    height: auto;
+
+    /* max-width: 100%;  */
+    /* margin: 20px 0; */
+    margin-bottom: 20px;
+    padding: 0;
+    }
+
+div.overlay-wrapper {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+div.overlay {
+    position: absolute;
+    width:70px;
+    height:70px; 
+    overflow: visible;
+    border-radius:50%;
+    /* border: 2px solid lightgray; */
+}
+
+div.overlay:hover {
+    background-color: rgba(255,0,0,0.5);
+    cursor: pointer;
+}
+
+/* tool tip displayed on hover */
+div.overlay-text {
+    position: relative;
+    display: block;
+    width: max-content;
+    max-width: 500px;
+    margin: -30px;
+    background-color: white;
+    border: 2 solid lightgray;
+    box-shadow: 1px 2px 5px #d2d3d3;
+}
+
