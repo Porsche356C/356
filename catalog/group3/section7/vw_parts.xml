@@ -5,9 +5,22 @@
 		<website>https://www.justkampers.com.au/catalog/product/view/id/2918/s/311-511-245-spring-plate-grommet-inner-nearside-left-vw-beetle-1959-to-1979/category/944/</website>
 		<group>3/7C</group>
 		<item>1</item>
-		<description>Outer spring plate busging left &amp; right side</description>
-		<partno>311511245, 311511246</partno>
-		<qty>1 ea</qty>
+		<description>Outer spring plate busging right side</description>
+		<partno>311511245</partno>
+		<qty>1</qty>
+		<image>images/311511245.jpg</image>
+		<note>each bushing specific to side</note>
+	</part>
+	<part>
+		<diagram_name>Rear axle</diagram_name>
+		<ref>1b</ref>
+		<website>https://www.justkampers.com.au/catalog/product/view/id/2918/s/311-511-245-spring-plate-grommet-inner-nearside-left-vw-beetle-1959-to-1979/category/944/</website>
+		<group>3/7C</group>
+		<item>1</item>
+		<description>Outer spring plate bushing left side</description>
+		<partno>311511246</partno>
+		<qty>1</qty>
+		<image>images/311511246.jpg</image>
 		<note>each bushing specific to side</note>
 	</part>
 	<part>
@@ -19,6 +32,7 @@
 		<description>Inner spring plate bushing</description>
 		<partno>111-511-245/E</partno>
 		<qty>2</qty>
+		<image>images/111511245E.jpg</image>
 		<note>Inner diameter is 4mm undersized. Can be fitted but I enlarged with die grinder</note>
 	</part>
 	<part>
@@ -30,6 +44,7 @@
 		<description>outer rear wheel bearing</description>
 		<partno>6306/C3</partno>
 		<qty>2</qty>
+		<image>images/6306.jpg</image>
 		<note>use qualify brand.  I used SKF.</note>
 	</part>
 </partslist>

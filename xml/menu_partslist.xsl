@@ -9,7 +9,7 @@
                 <ul>
                     <xsl:for-each select="section">
                         <li>
-                            <a class="parts menu-item">
+                            <a class="part menu-item">
                                 <xsl:attribute name="title">
                                     <xsl:value-of select="@title" />
                                 </xsl:attribute>

@@ -73,12 +73,17 @@ async function loadAreaMap(menuItem) {
         const dir = menuItem.getAttribute("data-dir");
         const diagram = dir + menuItem.getAttribute("data-img");
         const overlay = dir + menuItem.getAttribute("data-overlay");
+        if ( menuItem.classList.contains("vw")) {
+          var type = "vw";
+        } else {
+          var type = "part";
+        }
 
         // update diagrame heading and clear the image overlays
         diagramH1.innerHTML = title;
         overlayWrapper.replaceChildren();
 
-        // parse area.htm file and generate image clickable overlays
+        // parse overlay.html file and generate image clickable overlays
         const req = new XMLHttpRequest();
         req.open("GET", overlay, true);
         req.onreadystatechange = function () {
@@ -96,6 +101,7 @@ async function loadAreaMap(menuItem) {
                     const coords = area.getAttribute('coords').split(',');
                     const div = document.createElement('div');
                     div.classList.add('overlay');
+                    div.classList.add(type);
                     // div.setAttribute('title', area.getAttribute('title'));
                     div.setAttribute('data-ref', area.getAttribute('href'));
                     div.setAttribute('style', `left:${coords[0]}px; top:${coords[1]}px;`);

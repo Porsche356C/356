@@ -10,10 +10,6 @@ function toolTip(overlay) {
     const x = overlay.offsetLeft;
     const y = overlay.offsetTop;
 
-    console.log("x: ", x);
-    console.log("y: ", y);
-
-
     const ref = overlay.getAttribute("data-ref");
     const table = document.getElementById("partslist");
     const selectedPart = table.rows.namedItem(ref);
@@ -28,8 +24,13 @@ function toolTip(overlay) {
 
     // Create new row in popup table.
     const template = document.getElementById("popup-template").cloneNode(true);
-    partTable = template.content.querySelector("table")
+    if ( overlay.classList.contains("vw") ) {
+        partTable = template.content.querySelector("#vw-part-popup")
+    } else {
+        partTable = template.content.querySelector("#part-popup")
+    }
 
+    partTable.id = 'popup-table';
     partTable.rows[1].innerHTML = part.innerHTML;
     partTable.rows[2].innerHTML = note.innerHTML;
 

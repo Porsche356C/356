@@ -1,5 +1,6 @@
-var xmlDins = "xml/din_specs.xml";
-var xslPartsList = "xml/parts_table.sef.json";
+const xmlDins = "xml/din_specs.xml";
+const xslPartsList = "xml/parts_table.sef.json";
+const xslVwParts = "xml/vw_parts_table.sef.json";
 
 
 function generateTable(xmlPartsList, xslPartsList, xmlDins) {
@@ -48,10 +49,18 @@ function loadPartsList(menuItem) {
   const dir = menuItem.getAttribute("data-dir");
   const xmlPartsList = dir + menuItem.getAttribute("data-partslist");
  
+  if ( menuItem.classList.contains("vw") ) {
+    console.log("VW menu item");
+    generateTable(xmlPartsList, xslVwParts);
+  } else {
+    console.log("parts list menu item");
+    generateTable(xmlPartsList, xslPartsList, xmlDins);
+  }
+ 
   // Load the XML and XSL files, then generate the table
   // loadXML(xmlPartsList, function(xml) {
     // loadXML(xslPartsList, function(xsl) {
-  generateTable(xmlPartsList, xslPartsList, xmlDins);
+  // generateTable(xmlPartsList, xslPartsList, xmlDins);
     // });
   // });
 }  

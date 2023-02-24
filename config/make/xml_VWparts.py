@@ -113,7 +113,8 @@ def get_part(row, doc, tag, text):
 		with tag("description"): text(row[5])
 		with tag("partno"): text(row[6])
 		with tag("qty"): text(row[7])
-		with tag("note"): text(row[8])
+		with tag("image"): text("images/",row[8])
+		with tag("note"): text(row[9])
 
 def write_partslists():
 	for sheet in wb:
